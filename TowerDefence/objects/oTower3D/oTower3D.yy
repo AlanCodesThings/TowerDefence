@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTower2",
-    "path": "sprites/sTower2/sTower2.yy",
+    "name": "sTower3",
+    "path": "sprites/sTower3/sTower3.yy",
   },
   "solid": false,
   "visible": true,
@@ -29,15 +29,15 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"createTower","path":"objects/oTowerParentD/oTowerParentD.yy",},"objectId":{"name":"oTowerParentD","path":"objects/oTowerParentD/oTowerParentD.yy",},"value":"oTower2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"range","path":"objects/oTowerParentD/oTowerParentD.yy",},"objectId":{"name":"oTowerParentD","path":"objects/oTowerParentD/oTowerParentD.yy",},"value":"900","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"createTower","path":"objects/oTowerParentD/oTowerParentD.yy",},"objectId":{"name":"oTowerParentD","path":"objects/oTowerParentD/oTowerParentD.yy",},"value":"oTower3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"range","path":"objects/oTowerParentD/oTowerParentD.yy",},"objectId":{"name":"oTowerParentD","path":"objects/oTowerParentD/oTowerParentD.yy",},"value":"100","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "oTower2",
-    "path": "folders/Objects/Towers/oTower2.yy",
+    "name": "oTower3",
+    "path": "folders/Objects/Towers/oTower3.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oTower2D",
+  "name": "oTower3D",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -30,6 +30,7 @@
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"createTower","path":"objects/oTowerParentD/oTowerParentD.yy",},"objectId":{"name":"oTowerParentD","path":"objects/oTowerParentD/oTowerParentD.yy",},"value":"oTower1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"range","path":"objects/oTowerParentD/oTowerParentD.yy",},"objectId":{"name":"oTowerParentD","path":"objects/oTowerParentD/oTowerParentD.yy",},"value":"300","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "oTower1",
