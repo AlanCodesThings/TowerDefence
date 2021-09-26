@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oParentEnemy",
-    "path": "objects/oParentEnemy/oParentEnemy.yy",
+    "name": "oEnemyParent",
+    "path": "objects/oEnemyParent/oEnemyParent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -28,8 +28,8 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"maxHp","path":"objects/oParentEnemy/oParentEnemy.yy",},"objectId":{"name":"oParentEnemy","path":"objects/oParentEnemy/oParentEnemy.yy",},"value":"100","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"spd","path":"objects/oParentEnemy/oParentEnemy.yy",},"objectId":{"name":"oParentEnemy","path":"objects/oParentEnemy/oParentEnemy.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"maxHp","path":"objects/oEnemyParent/oEnemyParent.yy",},"objectId":{"name":"oEnemyParent","path":"objects/oEnemyParent/oEnemyParent.yy",},"value":"100","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"spd","path":"objects/oEnemyParent/oEnemyParent.yy",},"objectId":{"name":"oEnemyParent","path":"objects/oEnemyParent/oEnemyParent.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Enemies",
