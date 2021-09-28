@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTower3",
-    "path": "sprites/sTower3/sTower3.yy",
+    "name": "sGrunt",
+    "path": "sprites/sGrunt/sGrunt.yy",
   },
   "solid": false,
   "visible": true,

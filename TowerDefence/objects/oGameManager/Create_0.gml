@@ -6,5 +6,5 @@ alarm[0] = 1;
 alarm[1] = room_speed * 5;
 
 global.level = 1;
-
+global.newLevel = false;
 global.coins = 100;

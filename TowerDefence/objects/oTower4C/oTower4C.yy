@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sKnight",
-    "path": "sprites/sKnight/sKnight.yy",
+    "name": "sElf",
+    "path": "sprites/sElf/sElf.yy",
   },
   "solid": false,
   "visible": true,
@@ -29,15 +29,15 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"cost","path":"objects/oTowerParentC/oTowerParentC.yy",},"objectId":{"name":"oTowerParentC","path":"objects/oTowerParentC/oTowerParentC.yy",},"value":"50","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"dragTower","path":"objects/oTowerParentC/oTowerParentC.yy",},"objectId":{"name":"oTowerParentC","path":"objects/oTowerParentC/oTowerParentC.yy",},"value":"oTower1D","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"cost","path":"objects/oTowerParentC/oTowerParentC.yy",},"objectId":{"name":"oTowerParentC","path":"objects/oTowerParentC/oTowerParentC.yy",},"value":"100","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"dragTower","path":"objects/oTowerParentC/oTowerParentC.yy",},"objectId":{"name":"oTowerParentC","path":"objects/oTowerParentC/oTowerParentC.yy",},"value":"oTower4D","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "oTower1",
-    "path": "folders/Objects/Towers/oTower1.yy",
+    "name": "oTower4",
+    "path": "folders/Objects/Towers/oTower4.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oTower1C",
+  "name": "oTower4C",
   "tags": [],
   "resourceType": "GMObject",
 }

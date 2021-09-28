@@ -4,6 +4,9 @@ if(instance_number(oEnemy) <= 0){
 	spawn_count = 0;
 	spawn_amount++;
 	global.level++;
+	global.newLevel = true;
+	
+	
 	//make enemies stronger//
 	spawn_rate -= 2.5;
 	alarm[0] = spawn_rate;
