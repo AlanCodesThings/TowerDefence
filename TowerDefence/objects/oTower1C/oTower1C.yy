@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sKnight",
-    "path": "sprites/sKnight/sKnight.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -34,7 +31,7 @@
   ],
   "parent": {
     "name": "oTower1",
-    "path": "folders/Objects/Towers/oTower1.yy",
+    "path": "folders/Objects/Towers/oldtowers/oTower1.yy",
   },
   "resourceVersion": "1.0",
   "name": "oTower1C",

@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(global.newLevel){
 	
-	handSize = giveCards(cardDraw, handSize);
+	drawCards(4, handSize);
 	global.newLevel = false;
-	cardDraw = 1;
+
 }

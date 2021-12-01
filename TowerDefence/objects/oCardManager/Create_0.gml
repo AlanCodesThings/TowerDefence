@@ -2,4 +2,4 @@
 // You can write your code in this editor
 maxHandSize = 7;
 handSize = 0;
-cardDraw = 1;
+cardDraw = 4;

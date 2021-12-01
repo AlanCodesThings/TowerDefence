@@ -34,7 +34,7 @@
   ],
   "parent": {
     "name": "oTower3",
-    "path": "folders/Objects/Towers/oTower3.yy",
+    "path": "folders/Objects/Towers/oldtowers/oTower3.yy",
   },
   "resourceVersion": "1.0",
   "name": "oTower3C",

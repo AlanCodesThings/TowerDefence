@@ -4,7 +4,12 @@ draw_self();
 //draw attack radius
 if(mouseOver(x,y,sprite_width,sprite_height)){
 	draw_circle(x,y,range,true);
+	
 }
+
+
+
+
 
 var enemy = instance_nearest(x,y,oEnemy);
 if(enemy != noone){
