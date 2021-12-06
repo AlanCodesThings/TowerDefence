@@ -4,20 +4,18 @@ switch (tower)
 {
 	
 	case "oPeasent":
-		show_debug_message(countList(oSwordC));
-		show_debug_message(countList(oBowC));
-		show_debug_message(countList(oStaffC));
 		
-		if(countList(oSwordC) >= 2)
+		if(countList(oBowC) >= 2)
 		{
 			with(towerInstance)
 			{
-				instance_create_layer(x,y,"Instances",oKnight)
+				instance_create_layer(x,y,"Instances",oRanger)
 				instance_destroy();
 			}
-			deleteItems(oSwordC, 2);
+			deleteItems(oBowC, 2);
+			
 			instance_destroy();
-			instance_destroy(oEvolveRanger);
+			instance_destroy(oEvolve);
 			instance_destroy(oEvolveMage);
 			
 		}

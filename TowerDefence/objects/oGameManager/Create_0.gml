@@ -1,3 +1,4 @@
+//This object manages level enemy spawning and progression as well as the coin/level gui. 
 
 spawn_amount = 5;
 spawn_count = 0;

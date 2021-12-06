@@ -7,7 +7,7 @@ function deleteItems(){
 	var counter = 0;
 	
 	var deleteList = ds_list_create();
-
+	var tempList = ds_list_create();
 	
 	for(var c = 0; c <ds_list_size(oInventory.uiInventory);c++)
 	{
@@ -17,26 +17,23 @@ function deleteItems(){
 			var card = ds_list_find_value(oInventory.uiInventory,c);
 			var cardObj = object_get_name(card.object_index)
 			var itemName = object_get_name(item.object_index);
-
-			if(cardObj == itemName && counter < destroyAmount)
+	
+			if(!(cardObj == itemName && counter < destroyAmount))
 			{
-				
-			
-				ds_list_add(deleteList,c)
-				instance_destroy(card);
+				ds_list_add(tempList, card);
+			}
+			else{
 				counter++
-					
+				instance_destroy(card);
 			}
 		}
 	}
-	var initialSize = ds_list_size(deleteList);
-	for(var i = 0; i < initialSize; i++){
-		
-		var deleteIndex = ds_list_find_value(deleteList, i);
-		ds_list_delete(oInventory.uiInventory, deleteIndex);	
-		oCardManager.handSize--;
-	}
 	
+	for(var i = 0; i < destroyAmount; i++){
+		oCardManager.handSize--;	
+	}
+	ds_list_empty(oInventory.uiInventory);
+	oInventory.uiInventory = tempList;
 	shuffleCards();
 	
 }

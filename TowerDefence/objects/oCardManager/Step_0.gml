@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Give player cards when new level
 if(global.newLevel){
 	
 	drawCards(4, handSize);
