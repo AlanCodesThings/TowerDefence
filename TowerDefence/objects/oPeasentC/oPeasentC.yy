@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sPeasent",
-    "path": "sprites/sPeasent/sPeasent.yy",
+    "name": "sPeasentCard",
+    "path": "sprites/sPeasentCard/sPeasentCard.yy",
   },
   "solid": false,
   "visible": true,

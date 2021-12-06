@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 54,
-  "bbox_right": 77,
-  "bbox_top": 32,
-  "bbox_bottom": 115,
+  "bbox_left": 0,
+  "bbox_right": 191,
+  "bbox_top": 0,
+  "bbox_bottom": 383,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 128,
-  "height": 128,
+  "width": 192,
+  "height": 384,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"12a69407-6b88-4ae1-8fbe-ff9d098ce107","path":"sprites/sSwordnocard/sSwordnocard.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"12a69407-6b88-4ae1-8fbe-ff9d098ce107","path":"sprites/sSwordnocard/sSwordnocard.yy",},"LayerId":{"name":"ecdd7a39-ec6d-4aa0-a8d7-7f66cab58c76","path":"sprites/sSwordnocard/sSwordnocard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sSwordnocard","path":"sprites/sSwordnocard/sSwordnocard.yy",},"resourceVersion":"1.0","name":"12a69407-6b88-4ae1-8fbe-ff9d098ce107","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"208792a6-a0d6-4784-82c2-b55913321de5","path":"sprites/sSwordnocard/sSwordnocard.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"208792a6-a0d6-4784-82c2-b55913321de5","path":"sprites/sSwordnocard/sSwordnocard.yy",},"LayerId":{"name":"a72f7f60-e2fa-4ebe-9920-469a216a8474","path":"sprites/sSwordnocard/sSwordnocard.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sSwordnocard","path":"sprites/sSwordnocard/sSwordnocard.yy",},"resourceVersion":"1.0","name":"208792a6-a0d6-4784-82c2-b55913321de5","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sSwordnocard","path":"sprites/sSwordnocard/sSwordnocard.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3e6d14e0-5c97-47f2-9189-b04eb645a124","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"12a69407-6b88-4ae1-8fbe-ff9d098ce107","path":"sprites/sSwordnocard/sSwordnocard.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0862b91c-244b-4382-aaa9-a9aa68886e7b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"208792a6-a0d6-4784-82c2-b55913321de5","path":"sprites/sSwordnocard/sSwordnocard.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 64,
-    "yorigin": 64,
+    "xorigin": 96,
+    "yorigin": 192,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sSwordnocard","path":"sprites/sSwordnocard/sSwordnocard.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ecdd7a39-ec6d-4aa0-a8d7-7f66cab58c76","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"a72f7f60-e2fa-4ebe-9920-469a216a8474","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

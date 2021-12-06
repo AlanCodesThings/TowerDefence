@@ -71,8 +71,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Cards",
-    "path": "folders/Sprites/Cards.yy",
+    "name": "Delete?",
+    "path": "folders/Sprites/Cards/Delete?.yy",
   },
   "resourceVersion": "1.0",
   "name": "sSkeleton",
