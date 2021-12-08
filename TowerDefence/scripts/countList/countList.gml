@@ -1,5 +1,4 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+// Count how many of a certain weapon (arg0) is currently in the inventory. Return that count
 function countList(){
 	var value = argument0;
 	var count = 0;

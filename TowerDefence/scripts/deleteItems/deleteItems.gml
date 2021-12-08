@@ -1,39 +1,37 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+// Delete a certain weapon (arg0) a certain number of times (arg1) from inventory 
 function deleteItems(){
 	var item = argument0;
 	var destroyAmount = argument1;
 
-	var counter = 0;
+	var counter = 0; //Count how many times the item has been destroyed
 	
-	var deleteList = ds_list_create();
-	var tempList = ds_list_create();
+	var tempList = ds_list_create(); //Create a list to temporarily store the left over items
 	
-	for(var c = 0; c <ds_list_size(oInventory.uiInventory);c++)
+	for(var c = 0; c <ds_list_size(oInventory.uiInventory);c++)	//iterate through inventory
 	{
 	
-		if(ds_list_find_value(oInventory.uiInventory,c) != noone)
+		if(ds_list_find_value(oInventory.uiInventory,c) != noone) //If the current index points to an object
 		{
-			var card = ds_list_find_value(oInventory.uiInventory,c);
-			var cardObj = object_get_name(card.object_index)
-			var itemName = object_get_name(item.object_index);
+			var card = ds_list_find_value(oInventory.uiInventory,c);	//store the object
+			var cardObj = object_get_name(card.object_index)	//store the name of the object
+			var itemName = object_get_name(item.object_index);	//store the name of the item to delete
 	
-			if(!(cardObj == itemName && counter < destroyAmount))
+			if(!(cardObj == itemName && counter < destroyAmount)) //If current card should not be deleted (wrong object and/or enough objects have been destroyed)
 			{
-				ds_list_add(tempList, card);
+				ds_list_add(tempList, card); //add the card to a temporary list
 			}
-			else{
-				counter++
-				instance_destroy(card);
+			else{	//Else the card should be deleted
+				counter++ //Up the counter and destroy the card
+				instance_destroy(card); 
 			}
 		}
 	}
 	
 	for(var i = 0; i < destroyAmount; i++){
-		oCardManager.handSize--;	
+		oCardManager.handSize--;	//update the handsize based on how many items were deleted
 	}
-	ds_list_empty(oInventory.uiInventory);
-	oInventory.uiInventory = tempList;
-	shuffleCards();
+	ds_list_empty(oInventory.uiInventory);	//empty the initial inventory list
+	oInventory.uiInventory = tempList; //Make the new inventory = the temporary list where the 'not deleted' cards were added
+	shuffleCards();		//Shuffle the card positions based on the handsize (my script)
 	
 }

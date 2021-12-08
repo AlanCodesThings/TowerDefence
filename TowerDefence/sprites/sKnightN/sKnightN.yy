@@ -25,9 +25,9 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"429f713c-266f-4933-a6c1-9b98209b89cb","path":"sprites/sKnightN/sKnightN.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"429f713c-266f-4933-a6c1-9b98209b89cb","path":"sprites/sKnightN/sKnightN.yy",},"LayerId":{"name":"f3835df6-2257-4b43-98ec-4fd2f71b78eb","path":"sprites/sKnightN/sKnightN.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"429f713c-266f-4933-a6c1-9b98209b89cb","path":"sprites/sKnightN/sKnightN.yy",},"LayerId":{"name":"08d1041f-24fd-4e1f-b9b8-0afabaa6f803","path":"sprites/sKnightN/sKnightN.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"429f713c-266f-4933-a6c1-9b98209b89cb","path":"sprites/sKnightN/sKnightN.yy",},"LayerId":{"name":"5f2b26ea-0182-4d21-a3ec-e94122e5492f","path":"sprites/sKnightN/sKnightN.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"429f713c-266f-4933-a6c1-9b98209b89cb","path":"sprites/sKnightN/sKnightN.yy",},"LayerId":{"name":"08d1041f-24fd-4e1f-b9b8-0afabaa6f803","path":"sprites/sKnightN/sKnightN.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"429f713c-266f-4933-a6c1-9b98209b89cb","path":"sprites/sKnightN/sKnightN.yy",},"LayerId":{"name":"f3835df6-2257-4b43-98ec-4fd2f71b78eb","path":"sprites/sKnightN/sKnightN.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sKnightN","path":"sprites/sKnightN/sKnightN.yy",},"resourceVersion":"1.0","name":"429f713c-266f-4933-a6c1-9b98209b89cb","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -44,7 +44,7 @@
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
             {"id":"d2da00bb-075e-4ca4-8365-4aa7fb07f06c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"429f713c-266f-4933-a6c1-9b98209b89cb","path":"sprites/sKnightN/sKnightN.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Towers",
-    "path": "folders/Sprites/Towers.yy",
+    "name": "Knight",
+    "path": "folders/Sprites/Towers/Knight.yy",
   },
   "resourceVersion": "1.0",
   "name": "sKnightN",

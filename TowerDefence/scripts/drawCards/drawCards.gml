@@ -1,19 +1,18 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+// Display a number of cards (arg0) to be drawn 
 function drawCards(){
 	var numCards = argument0;
-	var handSize = argument1;
+
 	pauseGame(true);
 	
 	for(var i = 0; i < numCards; i++)
 	{
 		
-		var chosenCard = irandom_range(0,2);
+		var chosenCard = irandom_range(0,2); //randomise the drawn card (3 options atm, sword, bow, staff)
 		
-		var card_x = (window_get_width()/2 -300) + (160 * i);
+		var card_x = (window_get_width()/2 -300) + (160 * i); 
 		var card_y = window_get_height()/2; 
 		
-		if(i == 0){
+		if(i == 0){ //First card is always a peasent
 			instance_create_layer(card_x, card_y, "Instances", oPeasentDraw);
 			
 		}

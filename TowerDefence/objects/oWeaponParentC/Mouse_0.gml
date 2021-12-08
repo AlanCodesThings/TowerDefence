@@ -1,2 +1,1 @@
-/// @description Insert description here
-// You can write your code in this editor
+//If the player clicks on a weapon in inventory, do something.....

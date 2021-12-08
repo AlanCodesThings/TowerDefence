@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Towers",
-    "path": "folders/Sprites/Towers.yy",
+    "name": "Peasent",
+    "path": "folders/Sprites/Towers/Peasent.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPeasant",
