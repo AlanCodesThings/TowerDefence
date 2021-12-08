@@ -1,3 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+//This object is the parent object for towers being dragged into a position.
+//This is currently only referring to oPeasent tower.
+
 col = c_white;

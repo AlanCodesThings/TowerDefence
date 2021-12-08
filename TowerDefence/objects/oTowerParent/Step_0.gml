@@ -1,20 +1,22 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description EvolveUI on Mouse Click
 if(mouse_check_button_pressed(mb_left))
 {
-	if(object_get_name(id.object_index) == "oPeasent"){
-		if(mouseOver(x,y,sprite_width,sprite_height))
+	if(object_get_name(id.object_index) == "oPeasent"){		//If current tower/object is oPeasent
+		if(mouseOver(x,y,sprite_width,sprite_height))		//If user clicks on current tower
 		{
-			if(counter>= 1)
+			if(counter>= 1)		//First click (when placing), doesnt show Evolve UI
 			{
-				if(evolveUI = noone)
+				//KNIGHT
+				if(evolveUI = noone)	//Check that the UI isnt already up
 				{
-					var obj_name = object_get_name(object_index)
-					evolveUI = instance_create_layer(x,y-50,"Instances",oEvolve);
-					evolveUI.tower = obj_name;
+					var obj_name = object_get_name(object_index)	//Store current objects name
+					evolveUI = instance_create_layer(x,y-50,"Instances",oEvolve); //Create ui
+					evolveUI.tower = obj_name;	//Pass object name onto the UI object
 					evolveUI.towerInstance = id;	
+					//Pass instance id number onto UI object (so it knows what to delete)
 				}
 				
+				//RANGER
 				if(evolveUIRanger = noone){
 					var obj_name = object_get_name(object_index)
 					evolveUIRanger = instance_create_layer(x+70,y-50,"Instances",oEvolveRanger);
@@ -22,6 +24,7 @@ if(mouse_check_button_pressed(mb_left))
 					evolveUIRanger.towerInstance = id;
 				}
 			
+				//MAGE
 				if(evolveUIMage = noone){
 					var obj_name = object_get_name(object_index)
 					evolveUIMage = instance_create_layer(x-70,y-50,"Instances",oEvolveMage);
@@ -32,8 +35,9 @@ if(mouse_check_button_pressed(mb_left))
 				}
 			counter++
 		}
+		//If they click in the UI area, don't destroy the UI (do nothing)
 		else if(mouseOver(x,y-50,200,30)){}
-		else
+		else	//If they click outside UI area, destroy the UIs
 		{
 			if(evolveUI != noone){
 				instance_destroy(evolveUI);
@@ -53,7 +57,7 @@ if(mouse_check_button_pressed(mb_left))
 		
 	}
 	
-	else
+	else	//If not a peasent, only need a single evolveUI, do the rest the same
 	{
 		if(mouseOver(x,y,sprite_width,sprite_height))
 		{ 

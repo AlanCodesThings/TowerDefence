@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+//This Object is the Parent object for the placed towers, it involves 'attacking', 'evolving'
+//and UI features
 objectToAttack = noone;
 evolveUI = noone;
 evolveUIRanger = noone;

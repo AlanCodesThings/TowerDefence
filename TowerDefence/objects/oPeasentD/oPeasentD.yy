@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTower1",
-    "path": "sprites/sTower1/sTower1.yy",
+    "name": "sPeasant",
+    "path": "sprites/sPeasant/sPeasant.yy",
   },
   "solid": false,
   "visible": true,

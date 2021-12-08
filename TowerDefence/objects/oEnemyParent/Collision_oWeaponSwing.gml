@@ -1,4 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Take damage on wpn swing col
 currentHp -= other.damage;
+//destroy the wepn swing instance after colllision
 with(other) instance_destroy();

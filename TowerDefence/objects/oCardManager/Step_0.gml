@@ -1,4 +1,4 @@
-/// @description Give player cards when new level
+/// @description Draw potential cards on new level
 if(global.newLevel){
 	
 	drawCards(4, handSize);

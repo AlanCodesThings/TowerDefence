@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description check oEvolve for info
 tower = noone;
 towerInstance = noone;
 knightUI = noone;

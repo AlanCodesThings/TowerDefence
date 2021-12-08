@@ -1,27 +1,24 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Evolve the tower on click
 switch (tower)
 {
 	
 	case "oPeasent":
-		show_debug_message(countList(oSwordC));
-		show_debug_message(countList(oBowC));
-		show_debug_message(countList(oStaffC));
 		
-		if(countList(oSwordC) >= 2)
+		if(countList(oSwordC) >= 2)	//Check if there are at least 2 swords (my script)
 		{
-			with(towerInstance)
+			with(towerInstance)	//In regard to the tower that is being evolved
 			{
-				instance_create_layer(x,y,"Instances",oKnight)
-				instance_destroy();
+				instance_create_layer(x,y,"Instances",oKnight) //Create the evolved tower at the same coords
+				instance_destroy(); //Delete the tower being evolved
 			}
-			deleteItems(oSwordC, 2);
-			instance_destroy();
-			instance_destroy(oEvolveRanger);
-			instance_destroy(oEvolveMage);
+			deleteItems(oSwordC, 2); //Delete the swords (my script)
+			instance_destroy(); //Destroy this UI
+			instance_destroy(oEvolveRanger); //Destory the ranger ui
+			instance_destroy(oEvolveMage);	//Destory the ranger ui
 			
 		}
 		else{
+			//Do something better here later
 			show_debug_message("cant evolve");	
 			
 			
