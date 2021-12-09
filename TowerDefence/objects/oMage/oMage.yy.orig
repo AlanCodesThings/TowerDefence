@@ -30,8 +30,13 @@
     {"propertyId":{"name":"attack_speed","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"room_speed/4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"projectile","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"oBullet","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"projectileSpeed","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"25","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+<<<<<<< HEAD
+    {"propertyId":{"name":"idleSprite","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"sMage","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"attackSprite","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"sMage","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+=======
     {"propertyId":{"name":"attackSprite","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"sMageAttack","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"idleSprite","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"sMageN","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+>>>>>>> 0f9f961d538508c363eebefc43e8956bc83040e1
   ],
   "parent": {
     "name": "New Towers",
