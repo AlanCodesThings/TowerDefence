@@ -1,91 +1,90 @@
 {
   "resources": [
     {"id":{"name":"shuffleCards","path":"scripts/shuffleCards/shuffleCards.yy",},"order":6,},
-<<<<<<< HEAD
-=======
     {"id":{"name":"sMageAttack","path":"sprites/sMageAttack/sMageAttack.yy",},"order":19,},
-    {"id":{"name":"sElf","path":"sprites/sElf/sElf.yy",},"order":0,},
->>>>>>> 0f9f961d538508c363eebefc43e8956bc83040e1
-    {"id":{"name":"sEvolve","path":"sprites/sEvolve/sEvolve.yy",},"order":0,},
     {"id":{"name":"sWeaponSwing","path":"sprites/sWeaponSwing/sWeaponSwing.yy",},"order":1,},
-    {"id":{"name":"sPeasantBase","path":"sprites/sPeasantBase/sPeasantBase.yy",},"order":15,},
     {"id":{"name":"pauseGame","path":"scripts/pauseGame/pauseGame.yy",},"order":3,},
+    {"id":{"name":"oForge","path":"objects/oForge/oForge.yy",},"order":3,},
+    {"id":{"name":"oEnemy2","path":"objects/oEnemy2/oEnemy2.yy",},"order":2,},
     {"id":{"name":"oKnight","path":"objects/oKnight/oKnight.yy",},"order":0,},
     {"id":{"name":"oPeasentDraw","path":"objects/oPeasentDraw/oPeasentDraw.yy",},"order":1,},
+    {"id":{"name":"sEnemy28","path":"sprites/sEnemy28/sEnemy28.yy",},"order":1,},
     {"id":{"name":"oPeasentC","path":"objects/oPeasentC/oPeasentC.yy",},"order":1,},
     {"id":{"name":"oMage","path":"objects/oMage/oMage.yy",},"order":2,},
     {"id":{"name":"sArcherAttack","path":"sprites/sArcherAttack/sArcherAttack.yy",},"order":17,},
     {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},"order":1,},
+<<<<<<< HEAD
+    {"id":{"name":"sSword2","path":"sprites/sSword2/sSword2.yy",},"order":6,},
+    {"id":{"name":"checkEvolve","path":"scripts/checkEvolve/checkEvolve.yy",},"order":8,},
+=======
     {"id":{"name":"oEvolveRanger","path":"objects/oEvolveRanger/oEvolveRanger.yy",},"order":1,},
+    {"id":{"name":"TileSet3","path":"tilesets/TileSet3/TileSet3.yy",},"order":2,},
+>>>>>>> d1cac7e77d08a349d8e5642da38ffb595ba061b9
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":0,},
     {"id":{"name":"oRanger","path":"objects/oRanger/oRanger.yy",},"order":1,},
-    {"id":{"name":"oEvolveMage","path":"objects/oEvolveMage/oEvolveMage.yy",},"order":2,},
-<<<<<<< HEAD
-=======
-    {"id":{"name":"oTower2D","path":"objects/oTower2D/oTower2D.yy",},"order":1,},
+    {"id":{"name":"sForgeButtonCraft","path":"sprites/sForgeButtonCraft/sForgeButtonCraft.yy",},"order":1,},
     {"id":{"name":"sMageN","path":"sprites/sMageN/sMageN.yy",},"order":18,},
-    {"id":{"name":"oTower3C","path":"objects/oTower3C/oTower3C.yy",},"order":1,},
-    {"id":{"name":"sTower3","path":"sprites/sTower3/sTower3.yy",},"order":2,},
->>>>>>> 0f9f961d538508c363eebefc43e8956bc83040e1
+<<<<<<< HEAD
+    {"id":{"name":"sEnemy2","path":"sprites/sEnemy2/sEnemy2.yy",},"order":1,},
+=======
+    {"id":{"name":"sTiles3","path":"sprites/sTiles3/sTiles3.yy",},"order":2,},
+>>>>>>> d1cac7e77d08a349d8e5642da38ffb595ba061b9
     {"id":{"name":"countList","path":"scripts/countList/countList.yy",},"order":4,},
+    {"id":{"name":"sRiver","path":"sprites/sRiver/sRiver.yy",},"order":4,},
     {"id":{"name":"sSword","path":"sprites/sSword/sSword.yy",},"order":3,},
     {"id":{"name":"oBowDraw","path":"objects/oBowDraw/oBowDraw.yy",},"order":2,},
     {"id":{"name":"sBow","path":"sprites/sBow/sBow.yy",},"order":5,},
     {"id":{"name":"oDrawableCard","path":"objects/oDrawableCard/oDrawableCard.yy",},"order":0,},
     {"id":{"name":"oStaffDraw","path":"objects/oStaffDraw/oStaffDraw.yy",},"order":4,},
-<<<<<<< HEAD
     {"id":{"name":"sPeasantAttack","path":"sprites/sPeasantAttack/sPeasantAttack.yy",},"order":1,},
-=======
-    {"id":{"name":"oTower2","path":"objects/oTower2/oTower2.yy",},"order":2,},
-    {"id":{"name":"oTower2C","path":"objects/oTower2C/oTower2C.yy",},"order":0,},
-    {"id":{"name":"sPeasantAttack","path":"sprites/sPeasantAttack/sPeasantAttack.yy",},"order":9,},
     {"id":{"name":"sArcher","path":"sprites/sArcher/sArcher.yy",},"order":16,},
->>>>>>> 0f9f961d538508c363eebefc43e8956bc83040e1
     {"id":{"name":"oEnemyParent","path":"objects/oEnemyParent/oEnemyParent.yy",},"order":1,},
     {"id":{"name":"mouseOver","path":"scripts/mouseOver/mouseOver.yy",},"order":0,},
     {"id":{"name":"oWeaponSwing","path":"objects/oWeaponSwing/oWeaponSwing.yy",},"order":0,},
-    {"id":{"name":"oStaffC","path":"objects/oStaffC/oStaffC.yy",},"order":3,},
+    {"id":{"name":"oStaffC","path":"objects/oStaffC/oStaffC.yy",},"order":1,},
     {"id":{"name":"sTiles","path":"sprites/sTiles/sTiles.yy",},"order":0,},
-    {"id":{"name":"oEvolve","path":"objects/oEvolve/oEvolve.yy",},"order":0,},
     {"id":{"name":"sRanger","path":"sprites/sRanger/sRanger.yy",},"order":0,},
     {"id":{"name":"oBowC","path":"objects/oBowC/oBowC.yy",},"order":0,},
     {"id":{"name":"giveCards","path":"scripts/giveCards/giveCards.yy",},"order":1,},
     {"id":{"name":"oPeasent","path":"objects/oPeasent/oPeasent.yy",},"order":0,},
     {"id":{"name":"sRegion","path":"sprites/sRegion/sRegion.yy",},"order":0,},
     {"id":{"name":"sKnightN","path":"sprites/sKnightN/sKnightN.yy",},"order":2,},
-    {"id":{"name":"oSwordC","path":"objects/oSwordC/oSwordC.yy",},"order":1,},
+    {"id":{"name":"oSwordC","path":"objects/oSwordC/oSwordC.yy",},"order":3,},
     {"id":{"name":"oCardManager","path":"objects/oCardManager/oCardManager.yy",},"order":1,},
     {"id":{"name":"sStaff","path":"sprites/sStaff/sStaff.yy",},"order":4,},
-    {"id":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"order":2,},
+    {"id":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"order":4,},
     {"id":{"name":"drawCards","path":"scripts/drawCards/drawCards.yy",},"order":2,},
     {"id":{"name":"sTiles2","path":"sprites/sTiles2/sTiles2.yy",},"order":1,},
+    {"id":{"name":"sTiles4","path":"sprites/sTiles4/sTiles4.yy",},"order":3,},
     {"id":{"name":"sPeasant","path":"sprites/sPeasant/sPeasant.yy",},"order":0,},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":1,},
-    {"id":{"name":"oPeasentD","path":"objects/oPeasentD/oPeasentD.yy",},"order":2,},
     {"id":{"name":"sKnightAttack","path":"sprites/sKnightAttack/sKnightAttack.yy",},"order":1,},
     {"id":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"order":0,},
+    {"id":{"name":"spawnEnemies","path":"scripts/spawnEnemies/spawnEnemies.yy",},"order":7,},
     {"id":{"name":"sPeasent","path":"sprites/sPeasent/sPeasent.yy",},"order":3,},
-    {"id":{"name":"oTowerParentD","path":"objects/oTowerParentD/oTowerParentD.yy",},"order":2,},
     {"id":{"name":"oTowerParentC","path":"objects/oTowerParentC/oTowerParentC.yy",},"order":1,},
     {"id":{"name":"oSwordDraw","path":"objects/oSwordDraw/oSwordDraw.yy",},"order":3,},
     {"id":{"name":"oGameManager","path":"objects/oGameManager/oGameManager.yy",},"order":0,},
     {"id":{"name":"oInventory","path":"objects/oInventory/oInventory.yy",},"order":2,},
     {"id":{"name":"oRegion","path":"objects/oRegion/oRegion.yy",},"order":0,},
-<<<<<<< HEAD
-    {"id":{"name":"sPeasantBase","path":"sprites/sPeasantBase/sPeasantBase.yy",},"order":2,},
-=======
     {"id":{"name":"sPeasantBaseaAttack","path":"sprites/sPeasantBaseaAttack/sPeasantBaseaAttack.yy",},"order":14,},
-    {"id":{"name":"oTower4C","path":"objects/oTower4C/oTower4C.yy",},"order":1,},
-    {"id":{"name":"sGrunt","path":"sprites/sGrunt/sGrunt.yy",},"order":1,},
-    {"id":{"name":"oTower3D","path":"objects/oTower3D/oTower3D.yy",},"order":2,},
->>>>>>> 0f9f961d538508c363eebefc43e8956bc83040e1
+    {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":2,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":0,},
+    {"id":{"name":"Sprite30","path":"sprites/Sprite30/Sprite30.yy",},"order":16,},
     {"id":{"name":"sPeasentCard","path":"sprites/sPeasentCard/sPeasentCard.yy",},"order":1,},
+    {"id":{"name":"TileSet4","path":"tilesets/TileSet4/TileSet4.yy",},"order":3,},
     {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},"order":15,},
+<<<<<<< HEAD
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},"order":0,},
+    {"id":{"name":"sForge","path":"sprites/sForge/sForge.yy",},"order":2,},
+=======
+    {"id":{"name":"sEnemyBig","path":"sprites/sEnemyBig/sEnemyBig.yy",},"order":0,},
+>>>>>>> d1cac7e77d08a349d8e5642da38ffb595ba061b9
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":0,},
+    {"id":{"name":"sSwordD","path":"sprites/sSwordD/sSwordD.yy",},"order":7,},
     {"id":{"name":"sMage","path":"sprites/sMage/sMage.yy",},"order":0,},
     {"id":{"name":"deleteItems","path":"scripts/deleteItems/deleteItems.yy",},"order":5,},
+    {"id":{"name":"oSword2C","path":"objects/oSword2C/oSword2C.yy",},"order":2,},
     {"id":{"name":"sKnight","path":"sprites/sKnight/sKnight.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
@@ -148,6 +147,7 @@
     {"folderPath":"folders/Sprites/Towers/Knight.yy","order":16,"resourceVersion":"1.0","name":"Knight","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Towers/Mage.yy","order":17,"resourceVersion":"1.0","name":"Mage","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Towers/Ranger.yy","order":18,"resourceVersion":"1.0","name":"Ranger","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Weapons/Clickable.yy","order":5,"resourceVersion":"1.0","name":"Clickable","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
@@ -157,7 +157,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.7.603",
+    "IDEVersion": "2.3.2.560",
   },
   "resourceVersion": "1.4",
   "name": "TowerDefence",
