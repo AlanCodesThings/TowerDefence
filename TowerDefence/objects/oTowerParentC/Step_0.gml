@@ -12,4 +12,3 @@ if(dragging){
 
 }
 
-show_debug_message(y)

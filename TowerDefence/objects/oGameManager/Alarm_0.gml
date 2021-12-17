@@ -44,5 +44,6 @@ switch(global.level){
 		}
 		spawn_amount = 8
 		break;
+	
 
 }
