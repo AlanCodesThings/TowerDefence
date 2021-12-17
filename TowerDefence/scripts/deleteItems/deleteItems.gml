@@ -2,7 +2,9 @@
 function deleteItems(){
 	var item = argument0;
 	var destroyAmount = argument1;
-
+	
+	show_debug_message("checking")
+	
 	var counter = 0; //Count how many times the item has been destroyed
 	
 	var tempList = ds_list_create(); //Create a list to temporarily store the left over items
@@ -23,6 +25,7 @@ function deleteItems(){
 			else{	//Else the card should be deleted
 				counter++ //Up the counter and destroy the card
 				instance_destroy(card); 
+				
 			}
 		}
 	}

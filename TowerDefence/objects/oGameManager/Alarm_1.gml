@@ -1,17 +1,15 @@
 /// @description Level Progression
 
 //If there are no enemies left in the room
-if(instance_number(oEnemy) <= 0){
-	
+if(instance_number(oEnemyParent) <= 0 && spawn_count = spawn_amount){
 	//reset spawn count for next level
 	//add one maximum enemy for next level, increase the level and toggle newlevel to be true
+	spawn_amount = 0;
 	spawn_count = 0;
-	spawn_amount++;
 	global.level++;
 	global.newLevel = true;
 
-	//make enemies spawn faster
-	spawn_rate -= 2.5;
+	//run the alarm to make the next set of enemies spawn
 	alarm[0] = spawn_rate;
 	
 	

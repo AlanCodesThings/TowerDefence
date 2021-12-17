@@ -7,7 +7,10 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oWeaponParentC",
+    "path": "objects/oWeaponParentC/oWeaponParentC.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -22,10 +25,13 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"noCardSprite","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"sSwordD","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"upgradedTower","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"oKnight","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
-    "name": "Weapons",
-    "path": "folders/Objects/Weapons.yy",
+    "name": "Clickable",
+    "path": "folders/Objects/Weapons/Clickable.yy",
   },
   "resourceVersion": "1.0",
   "name": "oSwordC",

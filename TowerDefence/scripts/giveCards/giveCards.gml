@@ -2,20 +2,19 @@
 
 function giveCards(){
 	
-	var handSize = argument0;
-	var cardType = argument1;
+	var cardType = argument0;
 	
-	
-	var card_x = window_get_width()/4 + (200 * handSize);
+	var drawnCard = noone;
+	var card_x = window_get_width()/4 + (200 * oCardManager.handSize);
 	var card_y = window_get_height() * 0.9; 
 	
-	if(handSize <= oCardManager.maxHandSize){ //If not at the maximum limit of cards at once
-		var drawnCard = instance_create_layer(card_x, card_y, "Instances", cardType); 
+	if(oCardManager.handSize <= oCardManager.maxHandSize){ //If not at the maximum limit of cards at once
+		var drawnCard = instance_create_layer(card_x, card_y, "OnUI", cardType); 
 		ds_list_add(oInventory.uiInventory,drawnCard);
-		handSize++;
+		oCardManager.handSize++;
 		pauseGame(false); //Unpause the game
 	}
 	
-
-	return handSize; //Return the new handsize
+	return drawnCard;
+	 //Return the new handsize
 }

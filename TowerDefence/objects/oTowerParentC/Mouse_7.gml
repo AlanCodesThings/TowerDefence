@@ -1,8 +1,16 @@
-//This object is the parent object for card towers at the bottom
-//of the screen. This is currently only oPeasent. 
+/// @description Insert description here
+// You can write your code in this editor
+dragging = false;
 
-//Pay the cost and create the tower on left click
-if(global.coins >= cost){
-	instance_create_depth(mouse_x,mouse_y,-9,dragTower);
-	global.coins -= cost;
-}
+if(col == c_white && sprite_index = towerSprite)
+	{
+		instance_destroy();
+		deleteItems(oPeasentC, 1);
+		instance_create_depth(mouse_x,mouse_y,-1,createTower);
+	}
+	else
+	{
+		x = startingPosX;
+		y = startingPosY;	
+		
+	}

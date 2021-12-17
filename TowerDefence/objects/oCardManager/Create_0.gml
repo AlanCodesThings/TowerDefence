@@ -3,3 +3,4 @@
 maxHandSize = 7;
 handSize = 0;
 cardDraw = 4;
+global.canClickCard = true;

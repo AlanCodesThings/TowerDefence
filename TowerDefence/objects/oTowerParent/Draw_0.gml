@@ -10,7 +10,7 @@ if(mouseOver(x,y,sprite_width,sprite_height)){
 
 
 
-var enemy = instance_nearest(x,y,oEnemy);		//Store nearest enemy
+var enemy = instance_nearest(x,y,oEnemyParent);		//Store nearest enemy
 if(enemy != noone){		//If a nearby enemy exists
 		if(point_distance(x,y,enemy.x,enemy.y) <= range){		//and is in range
 			if(!attacking){			// and if not already attacking
