@@ -2,7 +2,7 @@
 
 spawn_amount = 5;
 spawn_count = 0;
-spawn_rate = 1 * room_speed; //one second (1*fps)
+spawn_rate = 0.25 * room_speed; //one second (1*fps)
 
 
 alarm[0] = 1;
