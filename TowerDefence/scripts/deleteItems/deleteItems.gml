@@ -1,8 +1,5 @@
 // Delete a certain weapon (arg0) a certain number of times (arg1) from inventory 
-function deleteItems(){
-	var item = argument0;
-	var destroyAmount = argument1;
-	
+function deleteItems(item, destroyAmount){
 	
 	
 	var counter = 0; //Count how many times the item has been destroyed

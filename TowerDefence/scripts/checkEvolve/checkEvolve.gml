@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function checkEvolve(){
-	oldTower = argument0;
+function checkEvolve(oldTower){
+
 	
 	if(oldTower == "oPeasent"){
 		return true;	

@@ -1,9 +1,8 @@
 //Allows the player to receive a selected cardtype (arg1) in the inventory. Uses handsize (arg0) to determine the correct position of the card.
 
-function giveCards(){
+function giveCards(cardType){
 	
-	var cardType = argument0;
-	
+
 	var drawnCard = noone;
 	var card_x = window_get_width()/4 + (200 * oCardManager.handSize);
 	var card_y = window_get_height() * 0.9; 

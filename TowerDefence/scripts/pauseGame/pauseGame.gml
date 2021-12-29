@@ -1,6 +1,6 @@
 // Pauses the game if arg0 = true, unpauses if arg0 = false
-function pauseGame(){
-	if(argument0){
+function pauseGame(tf){
+	if(tf){
 		instance_deactivate_object(oGameManager);
 		if(instance_exists(oEnemyParent))
 		{

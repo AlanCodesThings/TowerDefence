@@ -1,9 +1,6 @@
 //Checks if the player's mouse is within a certain area, returns true if it is, else false. 
-function mouseOver(){
-	var xx = argument0; //current x position of the object
-	var yy = argument1; //current y position of the object
-	var width = argument2;
-	var height = argument3;
+function mouseOver(xx,yy,width,height){
+
 	
 	xx = (xx - width / 2); //change x position to leftmost point of object
 	yy = (yy - height / 2); //change y pos to topmost point of object
