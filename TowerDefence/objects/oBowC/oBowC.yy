@@ -30,8 +30,8 @@
     {"propertyId":{"name":"upgradedTower","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"oArcher","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Clickable",
-    "path": "folders/Objects/Weapons/Clickable.yy",
+    "name": "Bow",
+    "path": "folders/Objects/Weapons/Clickable/Bow.yy",
   },
   "resourceVersion": "1.0",
   "name": "oBowC",

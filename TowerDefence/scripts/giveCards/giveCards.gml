@@ -12,7 +12,9 @@ function giveCards(){
 		var drawnCard = instance_create_layer(card_x, card_y, "OnUI", cardType); 
 		ds_list_add(oInventory.uiInventory,drawnCard);
 		oCardManager.handSize++;
-		pauseGame(false); //Unpause the game
+		if(!oForge.visible){
+			pauseGame(false); //Unpause the game
+		}
 	}
 	
 	if(instance_exists(oSkip)){

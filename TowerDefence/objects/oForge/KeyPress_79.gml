@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(!instance_exists(oDrawableCard)){
 
 visible = !visible;
 holder1.visible = !holder1.visible;
@@ -21,3 +22,4 @@ if(holder2.cardHeld != noone){
 removeFromForge(holder2, holder2.cardHeld);
 }
 shuffleCards();
+}
