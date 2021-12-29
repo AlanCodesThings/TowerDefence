@@ -43,7 +43,9 @@ switch(global.level){
 			spawnEnemies(oEnemy2);
 		}
 		spawn_amount = 8
-		break;
+		
+		
+		
 	
 
 }

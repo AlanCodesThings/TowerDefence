@@ -30,8 +30,8 @@
     {"propertyId":{"name":"noCardSprite","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"sStaffSmall","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Clickable",
-    "path": "folders/Objects/Weapons/Clickable.yy",
+    "name": "Staff",
+    "path": "folders/Objects/Weapons/Clickable/Staff.yy",
   },
   "resourceVersion": "1.0",
   "name": "oStaffC",

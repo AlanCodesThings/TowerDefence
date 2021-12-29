@@ -3,7 +3,7 @@ function deleteItems(){
 	var item = argument0;
 	var destroyAmount = argument1;
 	
-	show_debug_message("checking")
+	
 	
 	var counter = 0; //Count how many times the item has been destroyed
 	
