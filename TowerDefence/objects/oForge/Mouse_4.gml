@@ -6,7 +6,7 @@ if(oCardHolder1.holdingCard == true && oCardHolder2.holdingCard == true ){
 		
 			if(oCardHolder2.cardHeldName == "oSwordC"){
 			deleteItems(oSwordC, 2);
-			var newWep = giveCards(oSword2C);
+			var newWep = giveCards(oSteelSwordC);
 			
 			removeFromForge(oCardHolder1, oCardHolder1.cardHeld);
 			removeFromForge(oCardHolder2, oCardHolder2.cardHeld);

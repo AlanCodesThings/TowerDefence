@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Weapons",
-    "path": "folders/Sprites/Weapons.yy",
+    "name": "Sword",
+    "path": "folders/Sprites/Weapons/Sword.yy",
   },
   "resourceVersion": "1.0",
   "name": "sSword",

@@ -34,8 +34,8 @@
     {"propertyId":{"name":"attackSprite","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"sArcherAttack","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "New Towers",
-    "path": "folders/Objects/Towers/New Towers.yy",
+    "name": "Bow",
+    "path": "folders/Objects/Towers/New Towers/Bow.yy",
   },
   "resourceVersion": "1.0",
   "name": "oArcher",

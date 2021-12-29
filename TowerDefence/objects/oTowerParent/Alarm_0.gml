@@ -6,7 +6,8 @@ if(instance_exists(objectToAttack) && !global.pause){
 	if(projectile != 0)
 	{
 		//Switch to attacking sprite, create a projectile instance, set proj speed and angle
-		sprite_index = attackSprite;
+		sprite_index = attackSprite
+		
 		var proj = instance_create_depth(x,y,-9, projectile);
 		proj.speed = projectileSpeed;
 		proj.direction = point_direction(x,y,objectToAttack.x,objectToAttack.y);

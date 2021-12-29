@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sSword2",
-    "path": "sprites/sSword2/sSword2.yy",
+    "name": "sSteelSword",
+    "path": "sprites/sSteelSword/sSteelSword.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,13 +25,16 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"noCardSprite","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"sSteelSwordSmall","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"upgradedTower","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"oKnight","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Clickable",
     "path": "folders/Objects/Weapons/Clickable.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oSword2C",
+  "name": "oSteelSwordC",
   "tags": [],
   "resourceType": "GMObject",
 }

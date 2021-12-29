@@ -34,8 +34,8 @@
     {"propertyId":{"name":"idleSprite","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"sApprenticN","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "New Towers",
-    "path": "folders/Objects/Towers/New Towers.yy",
+    "name": "Mage",
+    "path": "folders/Objects/Towers/New Towers/Mage.yy",
   },
   "resourceVersion": "1.0",
   "name": "oApprentice",

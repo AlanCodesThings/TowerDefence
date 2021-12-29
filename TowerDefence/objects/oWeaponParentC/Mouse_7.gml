@@ -5,7 +5,7 @@ if(oForge.visible == false){
 	
 	collidedTower = instance_place(x,y,oTowerParent)
 
-	if(collidedTower != noone && checkEvolve(object_get_name(object_index),object_get_name(collidedTower.object_index)))
+	if(collidedTower != noone && checkEvolve(object_get_name(collidedTower.object_index)))
 		{
 				
 			instance_create_layer(collidedTower.x,collidedTower.y,"Instances",upgradedTower);
