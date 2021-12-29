@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Towers",
-    "path": "folders/Sprites/Towers.yy",
+    "name": "Ranger",
+    "path": "folders/Sprites/Towers/Ranger.yy",
   },
   "resourceVersion": "1.0",
   "name": "sArcher",

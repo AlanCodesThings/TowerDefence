@@ -97,8 +97,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Towers",
-    "path": "folders/Sprites/Towers.yy",
+    "name": "Mage",
+    "path": "folders/Sprites/Towers/Mage.yy",
   },
   "resourceVersion": "1.0",
   "name": "sMageAttack",
