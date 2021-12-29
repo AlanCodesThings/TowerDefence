@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4949b6ad-6200-420a-a364-e06fe1cb6a81","path":"sprites/sKnight/sKnight.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4949b6ad-6200-420a-a364-e06fe1cb6a81","path":"sprites/sKnight/sKnight.yy",},"LayerId":{"name":"d7163e96-522f-45f2-b94f-35e9ff9d7ed0","path":"sprites/sKnight/sKnight.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sKnight","path":"sprites/sKnight/sKnight.yy",},"resourceVersion":"1.0","name":"4949b6ad-6200-420a-a364-e06fe1cb6a81","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4949b6ad-6200-420a-a364-e06fe1cb6a81","path":"sprites/sSquire/sSquire.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4949b6ad-6200-420a-a364-e06fe1cb6a81","path":"sprites/sSquire/sSquire.yy",},"LayerId":{"name":"d7163e96-522f-45f2-b94f-35e9ff9d7ed0","path":"sprites/sSquire/sSquire.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sSquire","path":"sprites/sSquire/sSquire.yy",},"resourceVersion":"1.0","name":"4949b6ad-6200-420a-a364-e06fe1cb6a81","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sKnight","path":"sprites/sKnight/sKnight.yy",},
+    "spriteId": {"name":"sSquire","path":"sprites/sSquire/sSquire.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"7abecaf1-c6bc-4410-b22e-18221bf53ad4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4949b6ad-6200-420a-a364-e06fe1cb6a81","path":"sprites/sKnight/sKnight.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"7abecaf1-c6bc-4410-b22e-18221bf53ad4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4949b6ad-6200-420a-a364-e06fe1cb6a81","path":"sprites/sSquire/sSquire.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 95,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sKnight","path":"sprites/sKnight/sKnight.yy",},
+    "parent": {"name":"sSquire","path":"sprites/sSquire/sSquire.yy",},
     "resourceVersion": "1.3",
-    "name": "sKnight",
+    "name": "sSquire",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -69,11 +69,11 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Knight",
-    "path": "folders/Sprites/Towers/Knight.yy",
+    "name": "Squire",
+    "path": "folders/Sprites/Towers/Squire.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sKnight",
+  "name": "sSquire",
   "tags": [],
   "resourceType": "GMSprite",
 }

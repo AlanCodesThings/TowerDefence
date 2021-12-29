@@ -38,7 +38,7 @@
     "path": "folders/Objects/Towers/New Towers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oRanger",
+  "name": "oArcher",
   "tags": [],
   "resourceType": "GMObject",
 }
