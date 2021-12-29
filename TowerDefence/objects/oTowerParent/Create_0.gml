@@ -6,3 +6,4 @@ evolveUI = noone;
 evolveUIRanger = noone;
 evolveUIMage = noone;
 counter = 0;
+canShoot = true;
