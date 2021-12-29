@@ -2,7 +2,7 @@
 
 spawn_amount = 5;
 spawn_count = 0;
-spawn_rate = 0.25 * room_speed; //one second (1*fps)
+spawn_rate = 1 * room_speed; //one second (1*fps)
 
 
 alarm[0] = 1;
@@ -11,3 +11,5 @@ alarm[1] = room_speed * 5;
 global.level = 1;
 global.newLevel = false;
 global.coins = 100;
+global.hp = 10;
+global.pause = false;

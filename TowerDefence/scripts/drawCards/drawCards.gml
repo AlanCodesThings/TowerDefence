@@ -1,7 +1,8 @@
 // Display a number of cards (arg0) to be drawn 
 function drawCards(){
 	var numCards = argument0;
-
+	
+	var skipButton = instance_create_layer(window_get_width()/2 - 300 + (160 * numCards), window_get_height()/2, "OnUI", oSkip);
 	pauseGame(true);
 	
 	for(var i = 0; i < numCards; i++)

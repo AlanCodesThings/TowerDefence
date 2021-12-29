@@ -15,6 +15,9 @@ function giveCards(){
 		pauseGame(false); //Unpause the game
 	}
 	
+	if(instance_exists(oSkip)){
+		instance_destroy(oSkip);
+	}
 	return drawnCard;
 	 //Return the new handsize
 }

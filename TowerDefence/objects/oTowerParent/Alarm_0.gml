@@ -1,7 +1,7 @@
 /// @description Attack nearest enemy
 
 //If there is an enemy to attack (checked in draw event)
-if(instance_exists(objectToAttack)){
+if(instance_exists(objectToAttack) && !global.pause){
 	//Check that the tower links to a projectile object (variable definitions)
 	if(projectile != 0)
 	{

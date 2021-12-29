@@ -4,18 +4,20 @@ function pauseGame(){
 		instance_deactivate_object(oGameManager);
 		if(instance_exists(oEnemyParent))
 		{
-		oEnemyParent.path_speed = 0;
+			oEnemyParent.path_speed = 0;
 		}
+		global.pause = true;
 	}
 	else{
 		instance_activate_object(oGameManager);	
 		if(instance_exists(oEnemyParent))
 		{
-		oEnemyParent.path_speed = oEnemyParent.spd;
+			oEnemyParent.path_speed = oEnemyParent.spd;
 		}
 		with(oDrawableCard){
 			instance_destroy();	
 		}
+		global.pause = false;
 	}
 
 }

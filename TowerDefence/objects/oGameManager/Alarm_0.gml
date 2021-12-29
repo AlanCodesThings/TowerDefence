@@ -11,10 +11,10 @@
 
 switch(global.level){
 	case 1: 
-		if(spawn_count < 6){
+		if(spawn_count < 5){
 			spawnEnemies(oEnemy);
 		}
-		spawn_amount = 6;
+		spawn_amount = 5;
 		break;
 		
 	case 2:

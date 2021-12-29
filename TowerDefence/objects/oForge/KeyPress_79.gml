@@ -2,23 +2,22 @@
 // You can write your code in this editor
 
 visible = !visible;
-if(visible == true){
-	pauseGame(true);	
-	}
+holder1.visible = !holder1.visible;
+holder2.visible = !holder2.visible;
+resultHolder.visible = !resultHolder.visible;
+
+if(visible){
+	pauseGame(true);
+}
 else{
 	pauseGame(false);	
-	}
-if(slotOne != noone){
-	slotOne.inSlot = false
-	//layer = layer_get_id("Instances");
-	slotOne = noone;
-	shuffleCards();
-	
 }
-if(slotTwo != noone){
-	slotTwo.inSlot = false
-	//layer = layer_get_id("Instances");
-	oForge.slotTwo = noone;
-	shuffleCards();
-	
+
+if(holder1.cardHeld != noone){
+removeFromForge(holder1, holder1.cardHeld);
 }
+
+if(holder2.cardHeld != noone){
+removeFromForge(holder2, holder2.cardHeld);
+}
+shuffleCards();

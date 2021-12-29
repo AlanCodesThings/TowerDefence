@@ -10,6 +10,16 @@ function checkEvolve(){
 				return true;	
 				break;
 			}
+		case "oBowC":
+			if(oldTower == "oPeasent"){
+				return true;	
+				break;
+			}
+		case "oStaffC":
+			if(oldTower == "oPeasent"){
+				return true;	
+				break;
+			}	
 		
 		
 		
