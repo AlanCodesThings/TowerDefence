@@ -14,7 +14,6 @@ var enemy = instance_nearest(x,y,oEnemyParent);		//Store nearest enemy
 if(enemy != noone){		//If a nearby enemy exists
 		if(point_distance(x,y,enemy.x,enemy.y) <= range){		//and is in range
 			if(!attacking){			// and if not already attacking
-				alarm[0] = 1;		//Then attack the enemy
 				attacking = true;
 			}
 			objectToAttack= enemy;
