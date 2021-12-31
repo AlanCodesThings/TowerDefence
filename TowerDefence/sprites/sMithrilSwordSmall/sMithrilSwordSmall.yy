@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sword",
-    "path": "folders/Sprites/Weapons/Sword.yy",
+    "name": "Pure",
+    "path": "folders/Sprites/Weapons/Sword/Pure.yy",
   },
   "resourceVersion": "1.0",
   "name": "sMithrilSwordSmall",

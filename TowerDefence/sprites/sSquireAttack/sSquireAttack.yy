@@ -98,7 +98,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Squire",
-    "path": "folders/Sprites/Towers/Squire.yy",
+    "path": "folders/Sprites/Towers/Sword/Pure/Squire.yy",
   },
   "resourceVersion": "1.0",
   "name": "sSquireAttack",

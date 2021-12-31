@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Paladin",
-    "path": "folders/Sprites/Towers/Paladin.yy",
+    "path": "folders/Sprites/Towers/Sword/Pure/Paladin.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPaladinN",

@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Royal Guard",
-    "path": "folders/Sprites/Towers/Royal Guard.yy",
+    "path": "folders/Sprites/Towers/Sword/Pure/Royal Guard.yy",
   },
   "resourceVersion": "1.0",
   "name": "sRoyalGuardN",

@@ -32,8 +32,8 @@
     {"propertyId":{"name":"idleSprite","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"sKnightN","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Sword",
-    "path": "folders/Objects/Towers/New Towers/Sword.yy",
+    "name": "Pure",
+    "path": "folders/Objects/Towers/New Towers/Sword/Pure.yy",
   },
   "resourceVersion": "1.0",
   "name": "oKnight",

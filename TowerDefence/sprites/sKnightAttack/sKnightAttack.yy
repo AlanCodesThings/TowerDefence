@@ -98,7 +98,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Knight",
-    "path": "folders/Sprites/Towers/Knight.yy",
+    "path": "folders/Sprites/Towers/Sword/Pure/Knight.yy",
   },
   "resourceVersion": "1.0",
   "name": "sKnightAttack",

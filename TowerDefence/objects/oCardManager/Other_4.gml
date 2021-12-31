@@ -4,5 +4,9 @@
 //ds_list_add(oInventory.uiInventory,drawnCard);
 //handSize++;
 giveCards(oPeasentC);
+giveCards(oSwordC);
+giveCards(oStaffC);
+
+
 
 drawCards(5);

@@ -30,8 +30,8 @@
     {"propertyId":{"name":"upgradedTower","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"oSquire","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Sword",
-    "path": "folders/Objects/Weapons/Clickable/Sword.yy",
+    "name": "Pure",
+    "path": "folders/Objects/Weapons/Clickable/Sword/Pure.yy",
   },
   "resourceVersion": "1.0",
   "name": "oSwordC",
