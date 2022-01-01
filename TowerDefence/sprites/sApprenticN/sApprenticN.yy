@@ -73,8 +73,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Mage",
-    "path": "folders/Sprites/Towers/Mage.yy",
+    "name": "Apprentice",
+    "path": "folders/Sprites/Towers/Staff/Apprentice.yy",
   },
   "resourceVersion": "1.0",
   "name": "sApprenticN",

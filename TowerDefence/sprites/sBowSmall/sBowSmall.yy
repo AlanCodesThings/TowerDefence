@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Bow",
-    "path": "folders/Sprites/Weapons/Bow.yy",
+    "name": "Pure",
+    "path": "folders/Sprites/Weapons/Bow/Pure.yy",
   },
   "resourceVersion": "1.0",
   "name": "sBowSmall",

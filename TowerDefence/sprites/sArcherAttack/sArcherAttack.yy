@@ -104,7 +104,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Archer",
-    "path": "folders/Sprites/Towers/Archer.yy",
+    "path": "folders/Sprites/Towers/Bow/Archer.yy",
   },
   "resourceVersion": "1.0",
   "name": "sArcherAttack",

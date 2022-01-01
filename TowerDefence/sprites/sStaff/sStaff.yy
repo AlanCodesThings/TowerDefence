@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Staff",
-    "path": "folders/Sprites/Weapons/Staff.yy",
+    "name": "Pure",
+    "path": "folders/Sprites/Weapons/Staff/Pure.yy",
   },
   "resourceVersion": "1.0",
   "name": "sStaff",
