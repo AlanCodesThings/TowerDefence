@@ -139,6 +139,7 @@
     {"id":{"name":"oSwordDraw","path":"objects/oSwordDraw/oSwordDraw.yy",},"order":3,},
     {"id":{"name":"oSpearC","path":"objects/oSpearC/oSpearC.yy",},"order":0,},
     {"id":{"name":"sGrimoireSmall","path":"sprites/sGrimoireSmall/sGrimoireSmall.yy",},"order":3,},
+    {"id":{"name":"oProjectileParent","path":"objects/oProjectileParent/oProjectileParent.yy",},"order":2,},
     {"id":{"name":"sGoldSword","path":"sprites/sGoldSword/sGoldSword.yy",},"order":0,},
     {"id":{"name":"sSpearmanN","path":"sprites/sSpearmanN/sSpearmanN.yy",},"order":1,},
     {"id":{"name":"sFlaskSmall","path":"sprites/sFlaskSmall/sFlaskSmall.yy",},"order":1,},
