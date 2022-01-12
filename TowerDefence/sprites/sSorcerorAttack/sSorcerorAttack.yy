@@ -98,7 +98,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Sorceror",
-    "path": "folders/Sprites/Towers/Staff/Sorceror.yy",
+    "path": "folders/Sprites/Towers/Staff/Pure/Sorceror.yy",
   },
   "resourceVersion": "1.0",
   "name": "sSorcerorAttack",

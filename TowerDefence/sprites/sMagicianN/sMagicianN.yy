@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Magician",
-    "path": "folders/Sprites/Towers/Staff/Magician.yy",
+    "path": "folders/Sprites/Towers/Staff/Pure/Magician.yy",
   },
   "resourceVersion": "1.0",
   "name": "sMagicianN",

@@ -86,7 +86,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Duelist",
-    "path": "folders/Sprites/Towers/Bow/Duelist.yy",
+    "path": "folders/Sprites/Towers/Bow/Hybrid/Duelist.yy",
   },
   "resourceVersion": "1.0",
   "name": "sDuelistAttack",

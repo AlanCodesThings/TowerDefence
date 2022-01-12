@@ -7,9 +7,9 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 7,
-  "bbox_right": 62,
-  "bbox_top": 2,
+  "bbox_left": 6,
+  "bbox_right": 61,
+  "bbox_top": 1,
   "bbox_bottom": 60,
   "HTile": false,
   "VTile": false,
@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 32,
+  "gridY": 32,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"429f713c-266f-4933-a6c1-9b98209b89cb","path":"sprites/sSquireAttack/sSquireAttack.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"429f713c-266f-4933-a6c1-9b98209b89cb","path":"sprites/sSquireAttack/sSquireAttack.yy",},"LayerId":{"name":"acbe906a-2bc1-4c7e-bca3-6b358bc3d630","path":"sprites/sSquireAttack/sSquireAttack.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},

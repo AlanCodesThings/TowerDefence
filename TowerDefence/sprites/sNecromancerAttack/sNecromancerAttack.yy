@@ -177,7 +177,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Necromancer",
-    "path": "folders/Sprites/Towers/Staff/Necromancer.yy",
+    "path": "folders/Sprites/Towers/Staff/Hybrid/Necromancer.yy",
   },
   "resourceVersion": "1.0",
   "name": "sNecromancerAttack",

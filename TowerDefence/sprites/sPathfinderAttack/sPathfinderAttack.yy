@@ -104,7 +104,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Pathfinder",
-    "path": "folders/Sprites/Towers/Bow/Pathfinder.yy",
+    "path": "folders/Sprites/Towers/Bow/Pure/Pathfinder.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPathfinderAttack",
