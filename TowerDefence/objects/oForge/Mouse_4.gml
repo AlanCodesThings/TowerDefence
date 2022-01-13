@@ -8,6 +8,10 @@ if(oCardHolder1.holdingCard == true && oCardHolder2.holdingCard == true ){
 		//---------------------SWORD----------------------
 		
 		case "oSwordC": 
+			if(oCardHolder1.cardHeldName != "oSwordC"){
+				break;	
+			}		
+		
 			if(oCardHolder2.cardHeldName == "oSwordC")  //Steel Sword - Pure
 			{
 				forgeWeapon( oSteelSwordC, oSwordC, noone);
@@ -30,6 +34,10 @@ if(oCardHolder1.holdingCard == true && oCardHolder2.holdingCard == true ){
 			
 			
 		case "oSpearC":
+			if(oCardHolder1.cardHeldName != "oSpearC"){
+				break;	
+			}
+		
 			if(oCardHolder2.cardHeldName == "oDaggerC") //Halberd 
 				{
 					forgeWeapon(oHalberdC, oSpearC, oDaggerC);
@@ -42,6 +50,11 @@ if(oCardHolder1.holdingCard == true && oCardHolder2.holdingCard == true ){
 			}	
 			
 		case "oHalberdC":
+		
+			if(oCardHolder1.cardHeldName != "oHalberdC"){
+				break;	
+			}
+			
 			if(oCardHolder2.cardHeldName == "oRapierC") //Dragon Lance
 				{
 					forgeWeapon(oDragonLanceC, oHalberdC, oRapierC);
@@ -56,6 +69,10 @@ if(oCardHolder1.holdingCard == true && oCardHolder2.holdingCard == true ){
 
 		
 		case "oSteelSwordC":  
+			if(oCardHolder1.cardHeldName != "oSteelSwordC"){
+				break;	
+			}
+		
 			if(oCardHolder2.cardHeldName == "oSteelSwordC") //Mithril Sword - Pure
 			{
 				forgeWeapon(oMithrilSwordC, oSteelSwordC, noone);
@@ -64,6 +81,9 @@ if(oCardHolder1.holdingCard == true && oCardHolder2.holdingCard == true ){
 			
 			
 		case "oMithrilSwordC": 
+			if(oCardHolder1.cardHeldName != "oMithrilSwordC"){
+				break;	
+			}
 		
 			if(oCardHolder2.cardHeldName == "oMithrilSwordC") //Gold Sword - Pure
 			{
@@ -75,6 +95,10 @@ if(oCardHolder1.holdingCard == true && oCardHolder2.holdingCard == true ){
 		//--------------------------BOW-------------------------------
 		
 		case "oBowC": 
+			if(oCardHolder1.cardHeldName != "oBowC"){
+				break;	
+			}
+		
 		
 			if(oCardHolder2.cardHeldName == "oBowC") //Elven Bow - Pure
 			{
@@ -96,6 +120,9 @@ if(oCardHolder1.holdingCard == true && oCardHolder2.holdingCard == true ){
 			
 			
 		case "oElvenBowC":	
+			if(oCardHolder1.cardHeldName != "oElvenBowC"){
+				break;	
+			}
 			if(oCardHolder2.cardHeldName == "oElvenBowC") //Mithril Crossbow - Pure
 			{
 				forgeWeapon(oMithrilCrossbowC, oElvenBowC , noone);
@@ -103,6 +130,10 @@ if(oCardHolder1.holdingCard == true && oCardHolder2.holdingCard == true ){
 			}
 		
 		case "oMithrilCrossbowC":	
+			if(oCardHolder1.cardHeldName != "oMithrilCrossbowC"){
+				break;	
+			}
+			
 			if(oCardHolder2.cardHeldName == "oMithrilCrossbowC") //Dual Crossbows - Pure
 			{
 				forgeWeapon(oDualCrossbowsC, oMithrilCrossbowC , noone);
@@ -111,8 +142,12 @@ if(oCardHolder1.holdingCard == true && oCardHolder2.holdingCard == true ){
 		
 		
 		case "oDaggerC":
+			if(oCardHolder1.cardHeldName != "oDaggerC"){
+				break;	
+			}
 			if(oCardHolder2.cardHeldName == "oSpearC") //Halberd 
 				{
+					
 					forgeWeapon(oHalberdC, oSpearC, oDaggerC);
 					break;
 				}
@@ -123,6 +158,9 @@ if(oCardHolder1.holdingCard == true && oCardHolder2.holdingCard == true ){
 				}
 		
 		case "oRapierC":
+			if(oCardHolder1.cardHeldName != "oRapierC"){
+				break;	
+			}
 			if(oCardHolder2.cardHeldName == "oGrimoireC") //Blunderbuss
 				{
 					forgeWeapon(oBlunderbussC, oRapierC, oGrimoireC);
@@ -137,6 +175,9 @@ if(oCardHolder1.holdingCard == true && oCardHolder2.holdingCard == true ){
 		
 		//-------------------------STAFF---------------------------
 		case "oStaffC": 
+		if(oCardHolder1.cardHeldName != "oStaffC"){
+				break;	
+			}
 		
 			if(oCardHolder2.cardHeldName == "oStaffC") //Enchanted Staff - Pure
 			{
@@ -159,6 +200,10 @@ if(oCardHolder1.holdingCard == true && oCardHolder2.holdingCard == true ){
 			}
 			
 		case "oEnchantedStaffC": 
+			
+			if(oCardHolder1.cardHeldName != "oEnchantedStaffC"){
+				break;	
+			}
 		
 			if(oCardHolder2.cardHeldName == "oEnchantedStaffC") //Crystal Staff - Pure
 			{
@@ -167,6 +212,10 @@ if(oCardHolder1.holdingCard == true && oCardHolder2.holdingCard == true ){
 			}	
 			
 		case "oCrystalStaffC": 
+			
+			if(oCardHolder1.cardHeldName != "oCrystalStaffC"){
+				break;	
+			}
 		
 			if(oCardHolder2.cardHeldName == "oCrystalStaffC") //Infernal Sceptre - Pure
 			{
@@ -175,6 +224,9 @@ if(oCardHolder1.holdingCard == true && oCardHolder2.holdingCard == true ){
 			}
 			
 		case "oFlaskC": 
+			if(oCardHolder1.cardHeldName != "oFlaskC"){
+				break;	
+			}
 		
 			if(oCardHolder2.cardHeldName == "oDaggerC") //Rapier - Hybrid
 			{
@@ -188,6 +240,11 @@ if(oCardHolder1.holdingCard == true && oCardHolder2.holdingCard == true ){
 			}	
 			
 		case "oGrimoireC":
+			
+			if(oCardHolder1.cardHeldName != "oGrimoireC"){
+				break;	
+			}
+			
 			if(oCardHolder2.cardHeldName == "oHalberdC") //Dark Totem
 				{
 					forgeWeapon(oDarkTotemC, oGrimoireC, oHalberdC);

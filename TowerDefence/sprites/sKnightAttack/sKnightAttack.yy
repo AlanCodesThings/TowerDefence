@@ -54,7 +54,7 @@
     "spriteId": {"name":"sKnightAttack","path":"sprites/sKnightAttack/sKnightAttack.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 20.0,
+    "playbackSpeed": 12.5,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

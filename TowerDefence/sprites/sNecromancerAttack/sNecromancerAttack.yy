@@ -133,7 +133,7 @@
     "spriteId": {"name":"sNecromancerAttack","path":"sprites/sNecromancerAttack/sNecromancerAttack.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 20.0,
+    "playbackSpeed": 7.5,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

@@ -4,7 +4,9 @@ function pauseGame(tf){
 		instance_deactivate_object(oGameManager);
 		if(instance_exists(oEnemyParent))
 		{
-			oEnemyParent.path_speed = 0;
+			with(oEnemyParent){
+				path_speed = 0;	
+			}
 		}
 		global.pause = true;
 	}
@@ -15,7 +17,9 @@ function pauseGame(tf){
 			oEnemyParent.path_speed = oEnemyParent.spd;
 		}
 		with(oDrawableCard){
-			instance_destroy();	
+			if(!(ds_list_find_value(oShop.cardList, ds_list_find_index(oShop.cardList, id)))){
+				instance_destroy();	
+			}
 		}
 		global.pause = false;
 	}

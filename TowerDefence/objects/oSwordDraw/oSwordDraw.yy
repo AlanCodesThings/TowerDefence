@@ -27,10 +27,11 @@
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"giveObject","path":"objects/oDrawableCard/oDrawableCard.yy",},"objectId":{"name":"oDrawableCard","path":"objects/oDrawableCard/oDrawableCard.yy",},"value":"oSwordC","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"coinCost","path":"objects/oDrawableCard/oDrawableCard.yy",},"objectId":{"name":"oDrawableCard","path":"objects/oDrawableCard/oDrawableCard.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "DrawCards",
-    "path": "folders/Objects/DrawCards.yy",
+    "name": "Tier 1",
+    "path": "folders/Objects/DrawCards/Tier 1.yy",
   },
   "resourceVersion": "1.0",
   "name": "oSwordDraw",

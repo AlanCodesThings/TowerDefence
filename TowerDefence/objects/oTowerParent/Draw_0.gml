@@ -3,7 +3,13 @@ draw_self();
 //draw attack radius
 if(mouseOver(x,y,sprite_width,sprite_height)){
 	draw_circle(x,y,range,true);
-	
+	if(passive == "Buff"){
+		draw_sprite(sBuffZone, 0, x,y);
+	}
+	if(passive == "Firing Squad"){
+		draw_sprite(sFiringSquadZone, 0, x,y);
+	}
+
 }
 
 

@@ -3,7 +3,8 @@
 //var drawnCard = instance_create_layer(window_get_width()/4 + (200 * handSize), window_get_height() * 0.9, "Instances", oPeasentC); 
 //ds_list_add(oInventory.uiInventory,drawnCard);
 //handSize++;
-giveCards(oPeasentC);
+
+randomise();
 
 
 
@@ -16,4 +17,8 @@ giveCards(oPeasentC);
 
 
 
-drawCards(5);
+
+
+
+
+//drawCards(5);

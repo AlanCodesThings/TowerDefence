@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite37",
-    "path": "sprites/Sprite37/Sprite37.yy",
+    "name": "sBottomUI",
+    "path": "sprites/sBottomUI/sBottomUI.yy",
   },
   "solid": false,
   "visible": true,

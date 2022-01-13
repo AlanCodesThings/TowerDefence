@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sSkip",
-    "path": "sprites/sSkip/sSkip.yy",
+    "name": "sNext",
+    "path": "sprites/sNext/sNext.yy",
   },
   "solid": false,
   "visible": true,

@@ -3,8 +3,11 @@
 if (!instance_exists(owner)){
 	instance_destroy();
 }
-x= owner.x;
-y= owner.y;
+else
+{
+	x= owner.x;
+	y= owner.y;
+}
 if (y > checkY){
 	image_angle = 180;
 }

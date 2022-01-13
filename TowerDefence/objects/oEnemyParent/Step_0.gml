@@ -1,4 +1,6 @@
 /// @description Check if enemy dies
+if(!global.pause){
+	
 if(currentHp <= 0){
 	instance_destroy();	
 }
@@ -16,4 +18,11 @@ if (x < checkX){
 }
 checkY = y;
 checkX = x;
-	
+
+checkPoison();
+checkWeaken(weakenStrength);	
+checkBleed();
+checkSlow();
+
+}
+

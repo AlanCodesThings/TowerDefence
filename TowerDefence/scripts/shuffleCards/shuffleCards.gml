@@ -6,8 +6,10 @@ function shuffleCards()
 		if(card.inSlot = false){
 		//var check = object_get_name(card.object_index);
 		global.canClickCard = false;
-		card.x = window_get_width()/4 + (200 * i);
+	
+		card.x = window_get_width()/5 + (200 * i);
 		card.y = window_get_height() * 0.9; 
+		
 
 		}
 		

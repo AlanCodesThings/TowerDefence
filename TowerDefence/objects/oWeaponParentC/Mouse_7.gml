@@ -9,7 +9,7 @@ if(oForge.visible == false){
 		{
 				
 			instance_create_layer(collidedTower.x,collidedTower.y,"Instances",upgradedTower);
-			instance_destroy();
+			
 			instance_destroy(collidedTower);
 			deleteItems(id.object_index,1)
 		}else if(!place_meeting(x,y,oBin)){
