@@ -104,7 +104,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Ranger",
-    "path": "folders/Sprites/Towers/Bow/Ranger.yy",
+    "path": "folders/Sprites/Towers/Bow/Pure/Ranger.yy",
   },
   "resourceVersion": "1.0",
   "name": "sRangerAttack",

@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Bandit",
-    "path": "folders/Sprites/Towers/Bow/Bandit.yy",
+    "path": "folders/Sprites/Towers/Bow/Hybrid/Bandit.yy",
   },
   "resourceVersion": "1.0",
   "name": "sBanditN",

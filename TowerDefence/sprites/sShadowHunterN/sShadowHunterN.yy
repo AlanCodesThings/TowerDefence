@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "ShadowHunter",
-    "path": "folders/Sprites/Towers/Bow/ShadowHunter.yy",
+    "path": "folders/Sprites/Towers/Bow/Pure/ShadowHunter.yy",
   },
   "resourceVersion": "1.0",
   "name": "sShadowHunterN",

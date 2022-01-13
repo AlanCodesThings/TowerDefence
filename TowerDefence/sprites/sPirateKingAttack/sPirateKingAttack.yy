@@ -86,7 +86,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Pirate King",
-    "path": "folders/Sprites/Towers/Bow/Pirate King.yy",
+    "path": "folders/Sprites/Towers/Bow/Hybrid/Pirate King.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPirateKingAttack",

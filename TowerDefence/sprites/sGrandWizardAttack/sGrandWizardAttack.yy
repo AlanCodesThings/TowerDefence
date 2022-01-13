@@ -98,7 +98,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Grand Wizard",
-    "path": "folders/Sprites/Towers/Staff/Grand Wizard.yy",
+    "path": "folders/Sprites/Towers/Staff/Pure/Grand Wizard.yy",
   },
   "resourceVersion": "1.0",
   "name": "sGrandWizardAttack",

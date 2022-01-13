@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Witch Doctor",
-    "path": "folders/Sprites/Towers/Staff/Witch Doctor.yy",
+    "path": "folders/Sprites/Towers/Staff/Hybrid/Witch Doctor.yy",
   },
   "resourceVersion": "1.0",
   "name": "sWitchDoctorN",

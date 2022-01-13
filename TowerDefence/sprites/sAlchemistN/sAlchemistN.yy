@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "Alchemist",
-    "path": "folders/Sprites/Towers/Staff/Alchemist.yy",
+    "path": "folders/Sprites/Towers/Staff/Hybrid/Alchemist.yy",
   },
   "resourceVersion": "1.0",
   "name": "sAlchemistN",

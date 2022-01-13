@@ -97,14 +97,14 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Armor","resourceVersion":"1.0","name":"a05312e3-5d57-4e53-9d02-9f48b4b080fa","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Weapon","resourceVersion":"1.0","name":"6d7c08ee-ddf2-4da3-8bbb-2215501ca81b","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Armor","resourceVersion":"1.0","name":"a05312e3-5d57-4e53-9d02-9f48b4b080fa","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"4c2ef1c9-7b22-4d90-ad3f-81fb6b322a9f","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Archer",
-    "path": "folders/Sprites/Towers/Bow/Archer.yy",
+    "path": "folders/Sprites/Towers/Bow/Pure/Archer.yy",
   },
   "resourceVersion": "1.0",
   "name": "sArcherAttack",
