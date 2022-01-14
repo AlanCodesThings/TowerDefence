@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function forgeWeapon(forgedWep, deleteWep, deleteWep2)
 {
-	if(oForge.tier == deleteWep.tier){
+	if(oForge.tier >= deleteWep.tier){
 	if(deleteWep2 == noone){
 		deleteItems(deleteWep, 2);
 	}
