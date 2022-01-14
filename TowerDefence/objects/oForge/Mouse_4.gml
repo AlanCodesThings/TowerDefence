@@ -14,7 +14,7 @@ if(oCardHolder1.holdingCard == true && oCardHolder2.holdingCard == true ){
 		
 			if(oCardHolder2.cardHeldName == "oSwordC")  //Steel Sword - Pure
 			{
-				forgeWeapon( oSteelSwordC, oSwordC, noone);
+				forgeWeapon(oSteelSwordC, oSwordC, noone);
 				break;
 			}
 			

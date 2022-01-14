@@ -9,9 +9,12 @@ resultHolder.visible = !resultHolder.visible;
 
 if(visible){
 	pauseGame(true);
+	instance_activate_object(upgrade);
+	
 }
 else{
-	pauseGame(false);	
+	pauseGame(false);
+	instance_deactivate_object(upgrade);
 }
 
 if(holder1.cardHeld != noone){

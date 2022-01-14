@@ -6,12 +6,6 @@
 
 randomise();
 
-giveCards(oPeasentC);
-giveCards(oPeasentC);
-giveCards(oPeasentC);
-giveCards(oGrimoireC);
-giveCards(oInfernalSceptreC);
-giveCards(oDarkTotemC);
 
 
 
