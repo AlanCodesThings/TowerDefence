@@ -28,7 +28,7 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"damage","path":"objects/oProjectileParent/oProjectileParent.yy",},"objectId":{"name":"oProjectileParent","path":"objects/oProjectileParent/oProjectileParent.yy",},"value":"25","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"damage","path":"objects/oProjectileParent/oProjectileParent.yy",},"objectId":{"name":"oProjectileParent","path":"objects/oProjectileParent/oProjectileParent.yy",},"value":"50","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Distance",

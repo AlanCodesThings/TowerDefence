@@ -29,7 +29,7 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"damage","path":"objects/oProjectileParent/oProjectileParent.yy",},"objectId":{"name":"oProjectileParent","path":"objects/oProjectileParent/oProjectileParent.yy",},"value":"15","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"damage","path":"objects/oProjectileParent/oProjectileParent.yy",},"objectId":{"name":"oProjectileParent","path":"objects/oProjectileParent/oProjectileParent.yy",},"value":"20","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Weaken",

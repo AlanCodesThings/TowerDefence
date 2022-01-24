@@ -6,6 +6,8 @@
 
 randomise();
 
+giveCards(oPeasentC);
+giveCards(oInfernalSceptreC);
 
 
 
