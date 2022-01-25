@@ -7,7 +7,6 @@
 randomise();
 
 giveCards(oPeasentC);
-giveCards(oDaggerC);
 giveCards(oPeasentC);
 giveCards(oPeasentC);
 
