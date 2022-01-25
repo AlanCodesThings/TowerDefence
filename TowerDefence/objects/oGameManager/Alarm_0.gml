@@ -10,24 +10,28 @@ switch(global.level){
 		break;
 		
 	case 2:
-		if(spawn_count < 5)
+		if(spawn_count < 4)
 		{
 			spawnEnemies(oEnemy);
 		}
-		spawn_amount = 5
+		spawn_amount = 4;
 		break;
 		
 	case 3:
-		if(spawn_count < 2)
-		{
-			spawnEnemies(oEnemy2);
+		if(spawn_count < 5){
+			spawnEnemies(oEnemy);
 		}
-		
-		spawn_amount = 2
+		spawn_amount = 5;
 		break;
 		
-		
 	case 4:
+		if(spawn_count < 2){
+			spawnEnemies(oEnemy2);
+		}
+		spawn_amount = 2;
+		break;
+	
+	case 5:
 		if(spawn_count < 2){
 			spawnEnemies(oEnemy);
 		}
@@ -38,84 +42,107 @@ switch(global.level){
 		spawn_amount = 4;
 		break;
 	
-	case 5:
-		if(spawn_count < 8){
+	case 6:
+		if(spawn_count < 1){
 			spawnEnemies(oEnemy);
 		}
-		spawn_amount = 8;
-		break;
-	
-	case 6:
-		if(spawn_count < 4){
+		else if(spawn_count < 4)
+		{
 			spawnEnemies(oEnemy2);
 		}
 		spawn_amount = 4;
 		break;
 	
+	
 	case 7:
-		if(spawn_count < 4){
+		if(spawn_count < 1){
+			spawnEnemies(oEnemy3);
+		}
+		else if(spawn_count < 4)
+		{
 			spawnEnemies(oEnemy);
 		}
-		else if(spawn_count < 8)
-		{
-			spawnEnemies(oEnemy2);
-		}
-		spawn_amount = 8;
+		spawn_amount = 4;
 		break;
 		
 	case 8:
-		if(spawn_count < 6){
+		if(spawn_count < 2){
 			spawnEnemies(oEnemy2);
 		}
+		else if(spawn_count < 4)
+		{
+			spawnEnemies(oEnemy);
+		}
+		else if(spawn_count < 6)
+		{
+			spawnEnemies(oEnemy2);
+		}		
 		spawn_amount = 6;
 		break;
 	
 	case 9:
-		if(spawn_count < 5){
+		if(spawn_count < 1){
 			spawnEnemies(oEnemy);
 		}
-		if(spawn_count < 10){
+		else if(spawn_count < 3){
 			spawnEnemies(oEnemy2);
 		}
-		spawn_amount = 10;
+		else if(spawn_count < 4){
+			spawnEnemies(oEnemy3);
+		}		
+		spawn_amount = 4;
 		break;
 		
 	case 10:
 		if(spawn_count < 1){
 			spawnEnemies(oEnemy3);
 		}
-		spawn_amount = 1;
+		else if(spawn_count < 5){
+			spawnEnemies(oEnemy);
+		}
+		else if(spawn_count < 6){
+			spawnEnemies(oEnemy3);
+		}
+		spawn_amount = 6;
 		break;
 		
 	case 11:
-		if(spawn_count < 5){
-			spawnEnemies(oEnemy);
-		}
-		else if(spawn_count < 10)
-		{
-			spawnEnemies(oEnemy2);
-		}
-		else if(spawn_count < 15)
-		{
+		if(spawn_count < 1){
 			spawnEnemies(oEnemy4);
 		}
-		spawn_amount = 15;
+		else if(spawn_count < 2)
+		{
+			spawnEnemies(oEnemy);
+		}
+		spawn_amount = 2;
 		break;
 		
 	case 12:
-		if(spawn_count < 4){
+		if(spawn_count < 3){
 			spawnEnemies(oEnemy3);
 		}
-		spawn_amount = 4;
+		else if(spawn_count < 5)
+		{
+			spawnEnemies(oEnemy2);
+		}
+		else if(spawn_count < 6)
+		{
+			spawnEnemies(oEnemy);
+		}
+		spawn_amount = 6;
 		break;
 		
 	case 13:
-		if(spawn_count < 10){
-			spawnEnemies(oEnemy);
+		if(spawn_count < 1){
+			spawnEnemies(oEnemy4);
 		}
-		else if(spawn_count < 20)
+		else if(spawn_count < 2)
 		{
-			spawnEnemies(oEnemy2);
+			spawnEnemies(oEnemy3);
+		}
+		else if(spawn_count < 6)
+		{
+			spawnEnemies(oEnemy);
 		}
 		spawn_amount = 20;
 		break;

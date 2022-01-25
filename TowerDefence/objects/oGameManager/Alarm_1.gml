@@ -5,7 +5,7 @@ if(instance_number(oEnemyParent) <= 0 && spawn_count = spawn_amount ){
 	//reset spawn count for next level
 	//add one maximum enemy for next level, increase the level and toggle newlevel to be true
 	if(coinsGiven == false){
-	global.coins += (global.level * 2) + 10
+	global.coins += (global.level * 5) + 10
 	coinsGiven = true;
 	}
 	global.waiting = true;
