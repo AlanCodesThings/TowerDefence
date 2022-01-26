@@ -1,4 +1,5 @@
 // Display a number of cards (arg0) to be drawn 
+/*
 function drawCards(numCards){
 
 	
@@ -40,4 +41,4 @@ function drawCards(numCards){
 	}
 	
 
-}
+}*/

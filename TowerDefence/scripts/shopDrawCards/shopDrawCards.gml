@@ -6,9 +6,12 @@ function shopDrawCards(numCards, shopList){
 		
 		var chosenCard = irandom_range(0,2); //randomise the drawn card (3 options atm, sword, bow, staff)
 		var chosenCard2 = irandom_range(0,5); //randomise the drawn card (3 options atm, sword, bow, staff)
+		var viewX = camera_get_view_width(view_camera[0]);
+		var viewY = camera_get_view_height(view_camera[0]);
 		
-		var card_x = (window_get_width()/5) + (192 * i); 
-		var card_y = window_get_height()/2 - 60; 
+		
+		var card_x = (room_width/5) + (130 * i); 
+		var card_y = room_height/2 - 60; 
 		
 		if(i == 0){ //First card is always a peasent
 			var pCard = instance_create_layer(card_x, card_y, "Instances", oPeasentDraw);
