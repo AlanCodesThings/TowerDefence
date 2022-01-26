@@ -7,7 +7,9 @@
 randomise();
 
 giveCards(oPeasentC);
-giveCards(oInfernalSceptreC);
+giveCards(oPeasentC);
+giveCards(oPeasentC);
+
 
 
 
