@@ -19,6 +19,7 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oUIManager","path":"objects/oUIManager/oUIManager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-96.0,"y":384.0,"resourceVersion":"1.0","name":"inst_88C5A99","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oNextLevel","path":"objects/oNextLevel/oNextLevel.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1168.0,"y":278.0,"resourceVersion":"1.0","name":"inst_1B93FDAF","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oShop","path":"objects/oShop/oShop.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":64.0,"resourceVersion":"1.0","name":"inst_5AA08860","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"Object125","path":"objects/Object125/Object125.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":288.0,"resourceVersion":"1.0","name":"inst_3DE72E20","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"OnUI","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oForge","path":"objects/oForge/oForge.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":320.0,"resourceVersion":"1.0","name":"inst_61A1DE65","tags":[],"resourceType":"GMRInstance",},
@@ -102,6 +103,7 @@
     {"name":"inst_656AEB2","path":"rooms/Desert/Desert.yy",},
     {"name":"inst_982DFE8","path":"rooms/Desert/Desert.yy",},
     {"name":"inst_27A46B2C","path":"rooms/Desert/Desert.yy",},
+    {"name":"inst_3DE72E20","path":"rooms/Desert/Desert.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
