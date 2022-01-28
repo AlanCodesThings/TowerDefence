@@ -26,7 +26,7 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"giveObject","path":"objects/oDrawableCard/oDrawableCard.yy",},"objectId":{"name":"oDrawableCard","path":"objects/oDrawableCard/oDrawableCard.yy",},"value":"oBowC","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"giveObject","path":"objects/oDrawableCard/oDrawableCard.yy",},"objectId":{"name":"oDrawableCard","path":"objects/oDrawableCard/oDrawableCard.yy",},"value":"oIronBowC","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"coinCost","path":"objects/oDrawableCard/oDrawableCard.yy",},"objectId":{"name":"oDrawableCard","path":"objects/oDrawableCard/oDrawableCard.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
