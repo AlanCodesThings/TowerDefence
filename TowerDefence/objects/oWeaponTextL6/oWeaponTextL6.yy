@@ -29,6 +29,8 @@
     {"propertyId":{"name":"t2Sprite","path":"objects/oWeaponTextParent/oWeaponTextParent.yy",},"objectId":{"name":"oWeaponTextParent","path":"objects/oWeaponTextParent/oWeaponTextParent.yy",},"value":"sGrimoireText","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"t3Sprite","path":"objects/oWeaponTextParent/oWeaponTextParent.yy",},"objectId":{"name":"oWeaponTextParent","path":"objects/oWeaponTextParent/oWeaponTextParent.yy",},"value":"sTotemicMaceText","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"result","path":"objects/oWeaponTextParent/oWeaponTextParent.yy",},"objectId":{"name":"oWeaponTextParent","path":"objects/oWeaponTextParent/oWeaponTextParent.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"oppositeText","path":"objects/oWeaponTextParent/oWeaponTextParent.yy",},"objectId":{"name":"oWeaponTextParent","path":"objects/oWeaponTextParent/oWeaponTextParent.yy",},"value":"oWeaponText11","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"oppositeText2","path":"objects/oWeaponTextParent/oWeaponTextParent.yy",},"objectId":{"name":"oWeaponTextParent","path":"objects/oWeaponTextParent/oWeaponTextParent.yy",},"value":"oWeaponText12","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Left",

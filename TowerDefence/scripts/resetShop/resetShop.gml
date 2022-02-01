@@ -9,6 +9,6 @@ function resetShop(cardList, cost){
 			}
 		}
 		ds_list_empty(cardList);
-		shopDrawCards(7, cardList);
+		shopDrawCards(5, cardList);
 	}
 }

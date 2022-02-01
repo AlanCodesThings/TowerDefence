@@ -35,7 +35,7 @@ alarmTriggered = false;
 
 //Slow
 slowed = false;
-slowTimer = room_speed * 5;
+slowTimer = room_speed * 1;
 slowTimeLeft = slowTimer;
 slowSpeed = spd * 0.5;
 

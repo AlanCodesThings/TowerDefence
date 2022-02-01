@@ -1,7 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(oForgeUiBackground.visible){
+	oForgeUiBackground.visible = false;
+	showForge(false);	
+}
 
-if(!oForge.visible){
+
 	oShop.visible = !oShop.visible;	
 	
 	for( var i =0;i< ds_list_size(oShop.cardList); i++){
@@ -22,4 +26,3 @@ if(!oForge.visible){
 	}
 	
 	
-}

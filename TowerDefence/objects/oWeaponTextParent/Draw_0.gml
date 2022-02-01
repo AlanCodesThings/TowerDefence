@@ -37,3 +37,13 @@ if(!result){
 		}
 	}
 }
+else{
+	if(oppositeText.image_blend == c_green && oppositeText2.image_blend == c_green){
+		image_blend = c_green;	
+	}
+	else{
+		image_blend = startingCol;	
+	}
+	
+	
+}

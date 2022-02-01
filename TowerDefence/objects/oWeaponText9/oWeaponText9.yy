@@ -26,7 +26,7 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"t2Sprite","path":"objects/oWeaponTextParent/oWeaponTextParent.yy",},"objectId":{"name":"oWeaponTextParent","path":"objects/oWeaponTextParent/oWeaponTextParent.yy",},"value":"sEnchantedStaffText","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"t2Sprite","path":"objects/oWeaponTextParent/oWeaponTextParent.yy",},"objectId":{"name":"oWeaponTextParent","path":"objects/oWeaponTextParent/oWeaponTextParent.yy",},"value":"sEarthStaffText","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"t3Sprite","path":"objects/oWeaponTextParent/oWeaponTextParent.yy",},"objectId":{"name":"oWeaponTextParent","path":"objects/oWeaponTextParent/oWeaponTextParent.yy",},"value":"sCrystalStaffText","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"left","path":"objects/oWeaponTextParent/oWeaponTextParent.yy",},"objectId":{"name":"oWeaponTextParent","path":"objects/oWeaponTextParent/oWeaponTextParent.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"oppositeText","path":"objects/oWeaponTextParent/oWeaponTextParent.yy",},"objectId":{"name":"oWeaponTextParent","path":"objects/oWeaponTextParent/oWeaponTextParent.yy",},"value":"oWeaponText10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},

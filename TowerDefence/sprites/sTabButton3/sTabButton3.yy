@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 71,
-  "bbox_top": 0,
-  "bbox_bottom": 77,
+  "bbox_left": 2,
+  "bbox_right": 37,
+  "bbox_top": 2,
+  "bbox_bottom": 40,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 72,
-  "height": 78,
+  "width": 40,
+  "height": 43,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"1dbc5ede-0d5b-48f3-9047-773a802a7464","path":"sprites/sTabButton3/sTabButton3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"1dbc5ede-0d5b-48f3-9047-773a802a7464","path":"sprites/sTabButton3/sTabButton3.yy",},"LayerId":{"name":"4d940b26-958f-453e-bf1f-57f5636221d9","path":"sprites/sTabButton3/sTabButton3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sTabButton3","path":"sprites/sTabButton3/sTabButton3.yy",},"resourceVersion":"1.0","name":"1dbc5ede-0d5b-48f3-9047-773a802a7464","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"28cf20d5-b723-48d7-bc1a-b4e23eb61f46","path":"sprites/sTabButton3/sTabButton3.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"28cf20d5-b723-48d7-bc1a-b4e23eb61f46","path":"sprites/sTabButton3/sTabButton3.yy",},"LayerId":{"name":"5e92ea94-7774-4c9e-a78b-db7196fb03ea","path":"sprites/sTabButton3/sTabButton3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sTabButton3","path":"sprites/sTabButton3/sTabButton3.yy",},"resourceVersion":"1.0","name":"28cf20d5-b723-48d7-bc1a-b4e23eb61f46","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sTabButton3","path":"sprites/sTabButton3/sTabButton3.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"1210a5e1-0681-4984-916d-9665e16d6d3c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1dbc5ede-0d5b-48f3-9047-773a802a7464","path":"sprites/sTabButton3/sTabButton3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0362783c-49b4-41f9-a893-f58c3f7ae3c9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"28cf20d5-b723-48d7-bc1a-b4e23eb61f46","path":"sprites/sTabButton3/sTabButton3.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,12 +65,12 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4d940b26-958f-453e-bf1f-57f5636221d9","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"5e92ea94-7774-4c9e-a78b-db7196fb03ea","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "RightUI",
-    "path": "folders/Sprites/UI/RightUI.yy",
+    "name": "ForgeUI",
+    "path": "folders/Sprites/UI/ForgeUI.yy",
   },
   "resourceVersion": "1.0",
   "name": "sTabButton3",

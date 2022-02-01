@@ -10,9 +10,10 @@ alarm[1] = 1;
 
 global.level = 0;
 global.newLevel = false;
-global.coins =10000;
+global.coins =1000;
 global.hp = 10;
 global.pause = false;
 global.ready = false;
 global.waiting = false;
 global.forgeTier = 0;
+global.unlocked = 0;
