@@ -16,9 +16,6 @@ function giveCards(cardType){
 		}
 	}
 	
-	if(instance_exists(oSkip)){
-		instance_destroy(oSkip);
-	}
 	return drawnCard;
 	 //Return the new handsize
 }

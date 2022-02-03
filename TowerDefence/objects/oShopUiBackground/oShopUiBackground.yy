@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "sNext",
-    "path": "sprites/sNext/sNext.yy",
+    "name": "sForgeUI",
+    "path": "sprites/sForgeUI/sForgeUI.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -20,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "UI",
-    "path": "folders/Objects/UI.yy",
+    "name": "Forge UI",
+    "path": "folders/Objects/UI/Forge UI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oSkip",
+  "name": "oShopUiBackground",
   "tags": [],
   "resourceType": "GMObject",
 }

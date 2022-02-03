@@ -9,8 +9,8 @@ function shopDrawCards(numCards, shopList){
 	
 		
 		
-		var card_x = (room_width/3.5) + (130 * i); 
-		var card_y = room_height/2 - 60; 
+		var card_x = (room_width/3.6) + (130 * i); 
+		var card_y = room_height/2.7 ; 
 		
 		if(i == 0){ //First card is always a peasent
 			var pCard = instance_create_layer(card_x, card_y, "Instances", oPeasentDraw);

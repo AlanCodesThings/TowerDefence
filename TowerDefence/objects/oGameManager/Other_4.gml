@@ -4,4 +4,4 @@ oForgeUiBackground.visible = false;
 showForge(false);
 global.forgeTier = 1;
 
-audio_channel_num(5)
+audio_channel_num(8)

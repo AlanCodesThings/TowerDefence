@@ -7,6 +7,7 @@ if(oForgeUiBackground.visible){
 
 
 	oShop.visible = !oShop.visible;	
+	oShopUiBackground.visible = !oShopUiBackground.visible;
 	
 	for( var i =0;i< ds_list_size(oShop.cardList); i++){
 		var card = ds_list_find_value(oShop.cardList, i);
