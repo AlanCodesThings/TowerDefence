@@ -10,10 +10,7 @@ else{
 	sprite_index = startingSprite;	
 }
 
-show_debug_message(x)
-show_debug_message(camera_get_view_width(view_camera[0]))
-show_debug_message(y)
-show_debug_message(camera_get_view_height(view_camera[0]))
+
 
 if(dragging)
 {
@@ -22,6 +19,12 @@ if(dragging)
 		draw_set_color(c_green);
 		draw_circle(tower.x,tower.y,range,true )
 		draw_set_color(c_white);
+	}
+	else{
+		draw_set_color(c_green);
+		draw_circle(x,y,range,true)	
+		draw_set_color(c_white);
+		
 	}
 }
 }

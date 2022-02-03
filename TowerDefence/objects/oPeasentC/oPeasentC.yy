@@ -33,7 +33,7 @@
     {"propertyId":{"name":"cost","path":"objects/oTowerParentC/oTowerParentC.yy",},"objectId":{"name":"oTowerParentC","path":"objects/oTowerParentC/oTowerParentC.yy",},"value":"50","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"towerSprite","path":"objects/oTowerParentC/oTowerParentC.yy",},"objectId":{"name":"oTowerParentC","path":"objects/oTowerParentC/oTowerParentC.yy",},"value":"sPeasant","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"createTower","path":"objects/oTowerParentC/oTowerParentC.yy",},"objectId":{"name":"oTowerParentC","path":"objects/oTowerParentC/oTowerParentC.yy",},"value":"oPeasent","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"range","path":"objects/oTowerParentC/oTowerParentC.yy",},"objectId":{"name":"oTowerParentC","path":"objects/oTowerParentC/oTowerParentC.yy",},"value":"150","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"range","path":"objects/oTowerParentC/oTowerParentC.yy",},"objectId":{"name":"oTowerParentC","path":"objects/oTowerParentC/oTowerParentC.yy",},"value":"100","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "oPeasent",

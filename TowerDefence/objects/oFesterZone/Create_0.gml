@@ -3,5 +3,6 @@
 towerList = ds_list_create()
 towerNum = 0;
 enemyList = ds_list_create();
+initialFrenzy = false;
 owner = noone;
 alarm[0] = 1;

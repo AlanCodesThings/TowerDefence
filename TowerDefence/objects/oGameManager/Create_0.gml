@@ -10,7 +10,7 @@ alarm[1] = 1;
 
 global.level = 0;
 global.newLevel = false;
-global.coins =1000;
+global.coins =400;
 global.hp = 10;
 global.pause = false;
 global.ready = false;

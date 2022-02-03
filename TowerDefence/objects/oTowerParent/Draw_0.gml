@@ -1,10 +1,23 @@
 /// @description Check for near enemy and draw lines
+if(frenzy){
+	draw_sprite(sFrenzyBuff,0,x,y);
+	
+}
+
+if(rangerBuff){
+	var alphaLevel = rangerBuffStacks * 0.2;
+	if(alphaLevel > 1){
+		alphaLevel = 1;	
+	}
+	draw_sprite_ext(sRangerBuff,0,x,y,image_xscale,image_yscale,image_angle,image_blend,alphaLevel);		
+}
+
 draw_self();
 //draw attack radius
 if(mouseOver(x,y,sprite_width,sprite_height)){
 	draw_circle(x,y,range,true);
 	if(passive == "Buff"){
-		draw_sprite(sBuffZone, 0, x,y);
+		//draw_sprite(sBuffZone, 0, x,y);
 	}
 	if(passive == "Firing Squad"){
 		draw_sprite(sFiringSquadZone, 0, x,y);
@@ -32,4 +45,9 @@ if(enemy != noone){		//If a nearby enemy exists
 			attacking = false;
 			objectToAttack = noone;
 		}
+}
+
+if(buffed){
+	draw_sprite(sPaladinBuff,0,x,y);
+		
 }

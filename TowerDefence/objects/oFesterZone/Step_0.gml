@@ -16,10 +16,22 @@ if(owner.towerName == "oWitchDoctor"){
 	if(instance_exists(oEnemyParent)){
 
 		if(alarm[1] == -1){
-			alarm[1] = room_speed * 6;	
+			if(initialFrenzy == false){
+				initialFrenzy = true;
+				
+				alarm[1] = 1;	
+				
+			}
+			else{
+				alarm[1] = room_speed * 4;	
+			}
 			
 		}
 		
 		
 	}	
+	else{
+		alarm[1] = -1;	
+		initialFrenzy = false;
+	}
 }

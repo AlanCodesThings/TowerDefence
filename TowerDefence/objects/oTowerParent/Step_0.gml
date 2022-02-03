@@ -57,7 +57,7 @@ else{
 
 if(rangerBuff){
 	//image_speed = attackSpeedBuff;
-	attackSpeedBuff = 1.2 * rangerBuffStacks;
+	attackSpeedBuff = 1.1 * rangerBuffStacks;
 }
 else{
 	attackSpeedBuff = 1;	
@@ -86,4 +86,6 @@ else{
 }
 
 image_speed = 1 * attackSpeedBuff * frenzyBuff * 1 + rgAttackSpeedBuff;
+
+show_debug_message(frenzy)
 
