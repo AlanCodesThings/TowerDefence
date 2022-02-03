@@ -20,7 +20,7 @@ else{
 	showForge(false);
 }
 
-
+audio_play_sound(soundButtonPress, 100, false);
 shuffleCards();
 
 

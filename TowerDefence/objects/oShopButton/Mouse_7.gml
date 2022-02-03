@@ -26,4 +26,6 @@ if(oForgeUiBackground.visible){
 		
 	}
 	
+audio_play_sound(soundButtonPress, 100, false);
+	
 	

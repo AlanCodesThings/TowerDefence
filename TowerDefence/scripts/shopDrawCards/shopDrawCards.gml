@@ -13,7 +13,7 @@ function shopDrawCards(numCards, shopList){
 		var card_y = room_height/2.7 ; 
 		
 		if(i == 0){ //First card is always a peasent
-			var pCard = instance_create_layer(card_x, card_y, "Instances", oPeasentDraw);
+			var pCard = instance_create_layer(card_x, card_y, "OnUI", oPeasentDraw);
 			ds_list_add(shopList, pCard);
 			
 		}
@@ -23,17 +23,17 @@ function shopDrawCards(numCards, shopList){
 				switch(chosenCard){
 				
 					case 0:
-						var card1 = instance_create_layer(card_x, card_y,"Instances", oSwordDraw)
+						var card1 = instance_create_layer(card_x, card_y,"OnUI", oSwordDraw)
 						ds_list_add(shopList, card1);
 					
 						break;
 					case 1:
-						var card2 = instance_create_layer(card_x, card_y,"Instances", oBowDraw)
+						var card2 = instance_create_layer(card_x, card_y,"OnUI", oBowDraw)
 						ds_list_add(shopList, card2);
 						break;
 					case 2:
 					
-						var card3 = instance_create_layer(card_x, card_y,"Instances", oStaffDraw)
+						var card3 = instance_create_layer(card_x, card_y,"OnUI", oStaffDraw)
 					 ds_list_add(shopList, card3);
 						break;	
 				}
@@ -44,31 +44,31 @@ function shopDrawCards(numCards, shopList){
 				switch(chosenCard2){
 				
 					case 0:
-						var card1 = instance_create_layer(card_x, card_y,"Instances", oSteelSwordDraw)
+						var card1 = instance_create_layer(card_x, card_y,"OnUI", oSteelSwordDraw)
 						ds_list_add(shopList, card1);
 					
 						break;
 					case 1:
-						var card2 = instance_create_layer(card_x, card_y,"Instances", oSpearDraw)
+						var card2 = instance_create_layer(card_x, card_y,"OnUI", oSpearDraw)
 						ds_list_add(shopList, card2);
 						break;
 					case 2:
 					
-						var card3 = instance_create_layer(card_x, card_y,"Instances", oElvenBowDraw)
+						var card3 = instance_create_layer(card_x, card_y,"OnUI", oElvenBowDraw)
 					 ds_list_add(shopList, card3);
 						break;
 					case 3:
-						var card3 = instance_create_layer(card_x, card_y,"Instances", oDaggerDraw)
+						var card3 = instance_create_layer(card_x, card_y,"OnUI", oDaggerDraw)
 						ds_list_add(shopList, card3);
 					
 						break;
 					case 4:
-						var card4 = instance_create_layer(card_x, card_y,"Instances", oEnchantedStaffDraw)
+						var card4 = instance_create_layer(card_x, card_y,"OnUI", oEnchantedStaffDraw)
 						ds_list_add(shopList, card4);
 						break;
 					case 5:
 					
-						var card5 = instance_create_layer(card_x, card_y,"Instances", oFlaskDraw)
+						var card5 = instance_create_layer(card_x, card_y,"OnUI", oFlaskDraw)
 						ds_list_add(shopList, card5);
 						break;	
 				}
@@ -78,29 +78,29 @@ function shopDrawCards(numCards, shopList){
 			{
 				switch(chosenCard2){
 					case 0:
-						var card1 = instance_create_layer(card_x, card_y,"Instances", oMithrilSwordDraw)
+						var card1 = instance_create_layer(card_x, card_y,"OnUI", oMithrilSwordDraw)
 						ds_list_add(shopList, card1);
 					
 						break;
 					case 1:
-						var card2 = instance_create_layer(card_x, card_y,"Instances", oHalberdDraw)
+						var card2 = instance_create_layer(card_x, card_y,"OnUI", oHalberdDraw)
 						ds_list_add(shopList, card2);
 						break;
 					case 2:
-						var card3 = instance_create_layer(card_x, card_y,"Instances", oMithrilCrossbowDraw)
+						var card3 = instance_create_layer(card_x, card_y,"OnUI", oMithrilCrossbowDraw)
 					 ds_list_add(shopList, card3);
 						break;	
 					case 3:
-						var card3 = instance_create_layer(card_x, card_y,"Instances", oRapierDraw)
+						var card3 = instance_create_layer(card_x, card_y,"OnUI", oRapierDraw)
 						ds_list_add(shopList, card3);
 					
 						break;
 					case 4:
-						var card4 = instance_create_layer(card_x, card_y,"Instances", oCrystalStaffDraw)
+						var card4 = instance_create_layer(card_x, card_y,"OnUI", oCrystalStaffDraw)
 						ds_list_add(shopList, card4);
 						break;
 					case 5:
-						var card5 = instance_create_layer(card_x, card_y,"Instances", oGrimoireDraw)
+						var card5 = instance_create_layer(card_x, card_y,"OnUI", oGrimoireDraw)
 						ds_list_add(shopList, card5);
 						break;	
 				}

@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"35482cb4-ccbf-4338-9081-896b923c0533","path":"sprites/sFrenzyBuff/sFrenzyBuff.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"35482cb4-ccbf-4338-9081-896b923c0533","path":"sprites/sFrenzyBuff/sFrenzyBuff.yy",},"LayerId":{"name":"4ba2b03c-3f4c-4e65-b7c0-67bcd304a52f","path":"sprites/sFrenzyBuff/sFrenzyBuff.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"35482cb4-ccbf-4338-9081-896b923c0533","path":"sprites/sFrenzyBuff/sFrenzyBuff.yy",},"LayerId":{"name":"0e8fc53f-fd40-4b27-a4b7-1c06c3038e3e","path":"sprites/sFrenzyBuff/sFrenzyBuff.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"35482cb4-ccbf-4338-9081-896b923c0533","path":"sprites/sFrenzyBuff/sFrenzyBuff.yy",},"LayerId":{"name":"4ba2b03c-3f4c-4e65-b7c0-67bcd304a52f","path":"sprites/sFrenzyBuff/sFrenzyBuff.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sFrenzyBuff","path":"sprites/sFrenzyBuff/sFrenzyBuff.yy",},"resourceVersion":"1.0","name":"35482cb4-ccbf-4338-9081-896b923c0533","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {

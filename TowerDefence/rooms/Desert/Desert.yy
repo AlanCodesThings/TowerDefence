@@ -96,8 +96,10 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oRegion","path":"objects/oRegion/oRegion.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":4.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":416.0,"resourceVersion":"1.0","name":"inst_982DFE8","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oRegion","path":"objects/oRegion/oRegion.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":320.0,"resourceVersion":"1.0","name":"inst_27A46B2C","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
-    {"instances":[],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"BehindTower","tags":[],"resourceType":"GMRInstanceLayer",},
-    {"pathId":{"name":"Path1","path":"paths/Path1/Path1.yy",},"colour":4278190335,"visible":true,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Path_1","tags":[],"resourceType":"GMRPathLayer",},
+    {"instances":[
+        {"properties":[],"isDnd":false,"objectId":{"name":"oMusicPlayer","path":"objects/oMusicPlayer/oMusicPlayer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-94.0,"y":318.0,"resourceVersion":"1.0","name":"inst_4F3050B2","tags":[],"resourceType":"GMRInstance",},
+      ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"BehindTower","tags":[],"resourceType":"GMRInstanceLayer",},
+    {"pathId":{"name":"Path1","path":"paths/Path1/Path1.yy",},"colour":4278190335,"visible":false,"depth":600,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Path_1","tags":[],"resourceType":"GMRPathLayer",},
     {"tilesetId":{"name":"tDesert","path":"tilesets/tDesert/tDesert.yy",},"x":0,"y":0,"tiles":{"SerialiseWidth":20,"SerialiseHeight":12,"TileSerialiseData":[
 2147483648,2147483648,8,8,8,12,2147483648,14,2147483648,8,8,2147483648,12,0,0,13,8,8,8,2147483648,
 2147483648,2147483648,2147483648,13,12,6,2147483648,2147483648,8,7,8,7,2147483648,2147483648,0,0,2147483648,2147483648,8,2147483648,
@@ -205,6 +207,7 @@
     {"name":"inst_5A72C411","path":"rooms/Desert/Desert.yy",},
     {"name":"inst_4DB7C438","path":"rooms/Desert/Desert.yy",},
     {"name":"inst_5DD473BF","path":"rooms/Desert/Desert.yy",},
+    {"name":"inst_4F3050B2","path":"rooms/Desert/Desert.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

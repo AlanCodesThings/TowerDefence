@@ -8,7 +8,7 @@ if(firstWep.image_blend == c_green && secondWep.image_blend == c_green && global
 		forgeWeapon(createWep.currentWeapon,firstWep.currentWeapon, secondWep.currentWeapon);	
 		
 	}
-		
+	audio_play_sound(soundCraft, 100, false);
 }
 
 

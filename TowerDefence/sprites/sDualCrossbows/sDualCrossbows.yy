@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"f528070b-c760-4123-aa5e-a68ca776040c","path":"sprites/sDualCrossbows/sDualCrossbows.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f528070b-c760-4123-aa5e-a68ca776040c","path":"sprites/sDualCrossbows/sDualCrossbows.yy",},"LayerId":{"name":"4698fa6f-4ba6-4719-bc8b-f490f45c0dbd","path":"sprites/sDualCrossbows/sDualCrossbows.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"f528070b-c760-4123-aa5e-a68ca776040c","path":"sprites/sDualCrossbows/sDualCrossbows.yy",},"LayerId":{"name":"b61ae6ba-ebe3-4266-b993-da137ea47719","path":"sprites/sDualCrossbows/sDualCrossbows.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"f528070b-c760-4123-aa5e-a68ca776040c","path":"sprites/sDualCrossbows/sDualCrossbows.yy",},"LayerId":{"name":"4698fa6f-4ba6-4719-bc8b-f490f45c0dbd","path":"sprites/sDualCrossbows/sDualCrossbows.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sDualCrossbows","path":"sprites/sDualCrossbows/sDualCrossbows.yy",},"resourceVersion":"1.0","name":"f528070b-c760-4123-aa5e-a68ca776040c","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {

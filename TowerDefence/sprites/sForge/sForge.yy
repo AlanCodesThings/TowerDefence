@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"7942dff5-452b-4659-b142-9160fab0f420","path":"sprites/sForge/sForge.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7942dff5-452b-4659-b142-9160fab0f420","path":"sprites/sForge/sForge.yy",},"LayerId":{"name":"6645b3fd-f5d2-4d5a-b19f-6ce635cf8f06","path":"sprites/sForge/sForge.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"7942dff5-452b-4659-b142-9160fab0f420","path":"sprites/sForge/sForge.yy",},"LayerId":{"name":"634b7dc0-c282-4e0f-97bd-c66b9205c1f2","path":"sprites/sForge/sForge.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"7942dff5-452b-4659-b142-9160fab0f420","path":"sprites/sForge/sForge.yy",},"LayerId":{"name":"6645b3fd-f5d2-4d5a-b19f-6ce635cf8f06","path":"sprites/sForge/sForge.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sForge","path":"sprites/sForge/sForge.yy",},"resourceVersion":"1.0","name":"7942dff5-452b-4659-b142-9160fab0f420","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
