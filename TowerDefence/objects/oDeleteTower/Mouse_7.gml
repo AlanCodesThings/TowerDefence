@@ -16,5 +16,5 @@ if(owner != noone){
 	instance_destroy(owner);
 	owner = noone;
 	global.coins += giveCoins;
-
+	audio_play_sound(soundButtonPress,100,false);
 }

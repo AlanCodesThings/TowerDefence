@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+/*
 if(!oForge.visible){
 	visible = !visible;	
 	
@@ -22,3 +23,4 @@ if(!oForge.visible){
 	
 	
 }
+*/

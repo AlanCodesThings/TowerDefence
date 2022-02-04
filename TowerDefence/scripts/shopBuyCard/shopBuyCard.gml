@@ -10,6 +10,7 @@ function shopBuyCard(cardType, cardList, cost){
 	if(oCardManager.handSize <= oCardManager.maxHandSize){ //If not at the maximum limit of cards at once
 		if(global.coins >= cost){
 			global.coins -= cost;
+			audio_play_sound(soundPurchase, 100, false);
 			//Delete drawable card unless peasent
 			if(!(object_get_name(id.object_index) == "oPeasentDraw")){
 			ds_list_delete(cardList, ds_list_find_index(cardList, id));
