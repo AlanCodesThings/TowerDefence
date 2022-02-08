@@ -1,5 +1,21 @@
 /// @description Start path and set health
-path_start(Path1,spd,0,1);
+//Difficulty
+if(global.difficulty == "Easy"){
+	maxHp = maxHp * 0.75;	
+}
+else if(global.difficulty == "Hard"){
+	maxHp = maxHp * 1.25;	
+}
+
+var path = noone;
+
+if(room == rDesert){
+	path = Path1;	
+}
+else if(room == rFields){
+	path = Path2;	
+}
+path_start(path,spd,0,1);
 
 currentHp = maxHp;
 checkX = x;
@@ -51,3 +67,5 @@ poisoned = false;
 poisonMultiplier = 1;
 poisonTimer = room_speed * 5;
 poisonTimeLeft = poisonTimer;
+
+show_debug_message(currentHp);

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sForgeText",
-    "path": "sprites/sForgeText/sForgeText.yy",
+    "name": "sForgeText2",
+    "path": "sprites/sForgeText2/sForgeText2.yy",
   },
   "solid": false,
   "visible": true,

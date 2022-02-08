@@ -26,7 +26,7 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"destination","path":"objects/oMainMenuButtonParent/oMainMenuButtonParent.yy",},"objectId":{"name":"oMainMenuButtonParent","path":"objects/oMainMenuButtonParent/oMainMenuButtonParent.yy",},"value":"rGrassland","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"destination","path":"objects/oMainMenuButtonParent/oMainMenuButtonParent.yy",},"objectId":{"name":"oMainMenuButtonParent","path":"objects/oMainMenuButtonParent/oMainMenuButtonParent.yy",},"value":"rMapSelect","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Main Menu",

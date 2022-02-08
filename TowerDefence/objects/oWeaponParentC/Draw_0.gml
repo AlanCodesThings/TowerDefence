@@ -12,7 +12,7 @@ else{
 
 
 
-if(dragging)
+if(dragging && sprite_index = noCardSprite)
 {
 	var	tower = instance_place(x,y,oTowerParent);
 	if (tower != noone){
