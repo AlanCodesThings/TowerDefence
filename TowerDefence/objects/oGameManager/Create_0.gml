@@ -17,3 +17,4 @@ global.ready = false;
 global.waiting = false;
 global.forgeTier = 0;
 global.unlocked = 0;
+

@@ -27,6 +27,7 @@
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"destination","path":"objects/oMainMenuButtonParent/oMainMenuButtonParent.yy",},"objectId":{"name":"oMainMenuButtonParent","path":"objects/oMainMenuButtonParent/oMainMenuButtonParent.yy",},"value":"rMainMenu","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"sound","path":"objects/oMainMenuButtonParent/oMainMenuButtonParent.yy",},"objectId":{"name":"oMainMenuButtonParent","path":"objects/oMainMenuButtonParent/oMainMenuButtonParent.yy",},"value":"soundMenuChange","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Main Menu",

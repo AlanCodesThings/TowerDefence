@@ -25,7 +25,10 @@
   "physicsShapePoints": [],
   "eventList": [],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"sound","path":"objects/oMainMenuButtonParent/oMainMenuButtonParent.yy",},"objectId":{"name":"oMainMenuButtonParent","path":"objects/oMainMenuButtonParent/oMainMenuButtonParent.yy",},"value":"soundMenuChange","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"destination","path":"objects/oMainMenuButtonParent/oMainMenuButtonParent.yy",},"objectId":{"name":"oMainMenuButtonParent","path":"objects/oMainMenuButtonParent/oMainMenuButtonParent.yy",},"value":"rSettingsMenu","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+  ],
   "parent": {
     "name": "Main Menu",
     "path": "folders/Objects/UI/Main Menu.yy",

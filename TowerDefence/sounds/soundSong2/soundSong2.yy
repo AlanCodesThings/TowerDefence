@@ -8,8 +8,8 @@
   "type": 0,
   "bitDepth": 1,
   "audioGroupId": {
-    "name": "audiogroup_default",
-    "path": "audiogroups/audiogroup_default",
+    "name": "agMusic",
+    "path": "audiogroups/agMusic",
   },
   "soundFile": "soundSong2.wav",
   "duration": 253.231018,
