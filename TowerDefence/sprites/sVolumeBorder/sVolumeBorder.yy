@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Settings Menu",
-    "path": "folders/Sprites/UI/Settings Menu.yy",
+    "name": "Sound",
+    "path": "folders/Sprites/UI/Settings Menu/Sound.yy",
   },
   "resourceVersion": "1.0",
   "name": "sVolumeBorder",

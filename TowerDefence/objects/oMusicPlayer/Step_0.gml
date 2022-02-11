@@ -16,6 +16,4 @@ else
 }
 
 
-show_debug_message("Master: " + string(masterVol));
-show_debug_message("Music: " + string(musicVol));
-show_debug_message("SFX: " + string(sfxVol));
+show_debug_message(display_get_width());

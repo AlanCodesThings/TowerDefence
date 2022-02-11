@@ -2,6 +2,10 @@
 
 
 global.originalSong = noone;
+global.displayHeight=0;
+global.displayWidth=0;
+global.fullscreen = true;
+
 
 
 audio_group_load(agMusic)
