@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sMithrilCrossbow",
-    "path": "sprites/sMithrilCrossbow/sMithrilCrossbow.yy",
+    "name": "sCrossbow",
+    "path": "sprites/sCrossbow/sCrossbow.yy",
   },
   "solid": false,
   "visible": true,

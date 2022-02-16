@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sStaff",
-    "path": "sprites/sStaff/sStaff.yy",
+    "name": "sIronStaff",
+    "path": "sprites/sIronStaff/sIronStaff.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,7 +27,7 @@
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"upgradedTower","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"oApprentice","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"noCardSprite","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"sStaffSmall","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"noCardSprite","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"sIronStaffSmall","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"range","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"165","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"tier","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],

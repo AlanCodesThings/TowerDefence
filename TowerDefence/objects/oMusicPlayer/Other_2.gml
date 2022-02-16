@@ -4,8 +4,9 @@
 global.originalSong = noone;
 global.displayHeight=0;
 global.displayWidth=0;
-global.fullscreen = true;
 
+global.stars = 0; //will change to load if there is a file
+loadGame();
 
 
 audio_group_load(agMusic)
@@ -25,9 +26,9 @@ masterVol = 0.5;
 musicVol = 0.5;
 sfxVol = 0.5
 
-audio_master_gain(masterVol)
+
 audio_group_set_gain(agMusic, musicVol, 0);
 audio_group_set_gain(agSFX, sfxVol, 0);
 
-
+playOnce = false;
 

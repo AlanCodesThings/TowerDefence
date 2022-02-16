@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sEnchantedStaff",
-    "path": "sprites/sEnchantedStaff/sEnchantedStaff.yy",
+    "name": "sEarthStaff",
+    "path": "sprites/sEarthStaff/sEarthStaff.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,7 +27,7 @@
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"upgradedTower","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"oMagician","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"noCardSprite","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"sEnchantedStaffSmall","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"noCardSprite","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"sEarthStaffSmall","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"range","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"230","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"tier","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],

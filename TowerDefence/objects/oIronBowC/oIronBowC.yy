@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sBow",
-    "path": "sprites/sBow/sBow.yy",
+    "name": "sIronbow",
+    "path": "sprites/sIronbow/sIronbow.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,7 +26,7 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"noCardSprite","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"sBowSmall","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"noCardSprite","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"sIronBowSmall","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"upgradedTower","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"oArcher","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"range","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"250","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"tier","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sEnchantedStaff",
-    "path": "sprites/sEnchantedStaff/sEnchantedStaff.yy",
+    "name": "sEarthStaff",
+    "path": "sprites/sEarthStaff/sEarthStaff.yy",
   },
   "solid": false,
   "visible": true,

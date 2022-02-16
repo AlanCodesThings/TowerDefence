@@ -9,10 +9,18 @@ if(instance_number(oEnemyParent) <= 0 && spawn_count = spawn_amount ){
 	coinsGiven = true;
 	}
 	global.waiting = true;
+	
+	if(global.level == 1){
+		if(alarm[2] == -1){
+			alarm[2] = room_speed * 1;
+		}
+		
+	}
 }
 
+
 if(global.waiting && global.ready){
-	show_debug_message(global.ready)
+
 	global.waiting = false;
 	global.ready = false;
 	

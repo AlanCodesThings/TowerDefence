@@ -3,10 +3,10 @@
 switch(oMapSelect.currentMap){
 	
 	case 0:
-		sprite_index = sDesertText;
+		sprite_index = sFieldsText;
 		break;
 	case 1:
-		sprite_index = sFieldsText;
+		sprite_index = sDesertText;
 		break;
 	
 	

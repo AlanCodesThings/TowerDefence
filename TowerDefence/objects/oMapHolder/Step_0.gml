@@ -4,13 +4,15 @@ switch(oMapSelect.currentMap){
 	
 	case 0:
 	
-		sprite_index = sDesertMap;
-		oMainMenuPlayMap.destination = rDesert;
+		sprite_index = sFieldsMap;
+		oMainMenuPlayMap.destination = rFields;
+		neededStars = 0
 		break;
 	case 1:
 	
-		sprite_index = sFieldsMap;
-		oMainMenuPlayMap.destination = rFields;
+		sprite_index = sDesertMap;
+		oMainMenuPlayMap.destination = rDesert;
+		neededStars = 3;
 		break;
 	
 	

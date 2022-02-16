@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sElvenBow",
-    "path": "sprites/sElvenBow/sElvenBow.yy",
+    "name": "sLongbow",
+    "path": "sprites/sLongbow/sLongbow.yy",
   },
   "solid": false,
   "visible": true,

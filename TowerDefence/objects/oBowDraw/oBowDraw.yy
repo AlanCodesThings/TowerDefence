@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sBow",
-    "path": "sprites/sBow/sBow.yy",
+    "name": "sIronbow",
+    "path": "sprites/sIronbow/sIronbow.yy",
   },
   "solid": false,
   "visible": true,

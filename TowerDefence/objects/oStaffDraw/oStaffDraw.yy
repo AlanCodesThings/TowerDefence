@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sStaff",
-    "path": "sprites/sStaff/sStaff.yy",
+    "name": "sIronStaff",
+    "path": "sprites/sIronStaff/sIronStaff.yy",
   },
   "solid": false,
   "visible": true,
