@@ -9,6 +9,10 @@ randomise();
 giveCards(oPeasentC);
 giveCards(oPeasentC);
 giveCards(oPeasentC);
+giveCards(oFlintlockMusketC);
+giveCards(oFlintlockMusketC);
+giveCards(oBlessedClaymoreC);
+giveCards(oTotemicMaceC);
 
 
 

@@ -10,7 +10,7 @@ if(instance_number(oEnemyParent) <= 0 && spawn_count = spawn_amount ){
 	}
 	global.waiting = true;
 	
-	if(global.level == 1){
+	if(global.level == 30){
 		if(alarm[2] == -1){
 			alarm[2] = room_speed * 1;
 		}
