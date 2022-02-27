@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sTowerCollisionMask",
+    "path": "sprites/sTowerCollisionMask/sTowerCollisionMask.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "oTowerParent",
@@ -26,13 +29,14 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"range","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"600","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"range","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"400","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"projectile","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"oProjDistanceRang","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"projectileSpeed","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"50","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"idleSprite","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"sRangerNW","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"attackSprite","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"sRangerAttackNW","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"passive","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"Firing Squad","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"tier","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"hoverCard","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"sRangerHover","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Pure",

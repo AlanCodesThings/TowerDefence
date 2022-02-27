@@ -25,10 +25,11 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oEnemyParent","path":"objects/oEnemyParent/oEnemyParent.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"damage","path":"objects/oProjectileParent/oProjectileParent.yy",},"objectId":{"name":"oProjectileParent","path":"objects/oProjectileParent/oProjectileParent.yy",},"value":"15","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"damage","path":"objects/oProjectileParent/oProjectileParent.yy",},"objectId":{"name":"oProjectileParent","path":"objects/oProjectileParent/oProjectileParent.yy",},"value":"45","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Slow",

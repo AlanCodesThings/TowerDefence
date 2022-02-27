@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sMithrilCrossbow",
-    "path": "sprites/sMithrilCrossbow/sMithrilCrossbow.yy",
+    "name": "sCrossbow",
+    "path": "sprites/sCrossbow/sCrossbow.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,7 +26,7 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"giveObject","path":"objects/oDrawableCard/oDrawableCard.yy",},"objectId":{"name":"oDrawableCard","path":"objects/oDrawableCard/oDrawableCard.yy",},"value":"oMithrilCrossbowC","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"giveObject","path":"objects/oDrawableCard/oDrawableCard.yy",},"objectId":{"name":"oDrawableCard","path":"objects/oDrawableCard/oDrawableCard.yy",},"value":"oCrossbowC","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"coinCost","path":"objects/oDrawableCard/oDrawableCard.yy",},"objectId":{"name":"oDrawableCard","path":"objects/oDrawableCard/oDrawableCard.yy",},"value":"75","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {

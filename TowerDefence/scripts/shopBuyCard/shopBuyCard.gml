@@ -4,12 +4,13 @@ function shopBuyCard(cardType, cardList, cost){
 	
 
 	var boughtCard = noone;
-	var card_x = room_width/5 + (130 * oCardManager.handSize);
+	var card_x = room_width/7 + (130 * oCardManager.handSize);
 	var card_y = room_height * 0.9; 
 	
 	if(oCardManager.handSize <= oCardManager.maxHandSize){ //If not at the maximum limit of cards at once
 		if(global.coins >= cost){
 			global.coins -= cost;
+			audio_play_sound(soundPurchase, 100, false);
 			//Delete drawable card unless peasent
 			if(!(object_get_name(id.object_index) == "oPeasentDraw")){
 			ds_list_delete(cardList, ds_list_find_index(cardList, id));
@@ -23,6 +24,7 @@ function shopBuyCard(cardType, cardList, cost){
 		}
 		
 	}
+	
 	
 	
 	return boughtCard;

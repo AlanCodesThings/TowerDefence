@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sShop",
-    "path": "sprites/sShop/sShop.yy",
+    "name": "sShopText2",
+    "path": "sprites/sShopText2/sShopText2.yy",
   },
   "solid": false,
   "visible": false,

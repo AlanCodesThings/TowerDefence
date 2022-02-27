@@ -28,11 +28,11 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"damage","path":"objects/oProjectileParent/oProjectileParent.yy",},"objectId":{"name":"oProjectileParent","path":"objects/oProjectileParent/oProjectileParent.yy",},"value":"5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"damage","path":"objects/oProjectileParent/oProjectileParent.yy",},"objectId":{"name":"oProjectileParent","path":"objects/oProjectileParent/oProjectileParent.yy",},"value":"10","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Basic",
-    "path": "folders/Objects/Projectiles/Basic.yy",
+    "path": "folders/Objects/Enemies/Basic.yy",
   },
   "resourceVersion": "1.0",
   "name": "oProjPeasent",

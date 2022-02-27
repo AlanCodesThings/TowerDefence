@@ -49,10 +49,10 @@ rgAttackSpeedBuff = 0;
 if(towerName == "oRoyalGuard")
 {
 	with(oTowerParent){
-		if(tier <= 3){
+		
 			royalGuardBuff = true;	
 			royalGuardStacks ++;
-		}
+		
 	}
 }
 

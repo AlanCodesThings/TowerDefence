@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sTowerCollisionMask",
+    "path": "sprites/sTowerCollisionMask/sTowerCollisionMask.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "oTowerParent",
@@ -26,13 +29,14 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"range","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"200","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"range","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"135","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"room_speed * 0.4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"projectile","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"oProjBleedSpear","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"projectileSpeed","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"15","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"idleSprite","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"sSpearmanNW","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"attackSprite","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"sSpearmanAttackNW","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"tier","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"hoverCard","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"sSpearmanHover","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Hybrid",

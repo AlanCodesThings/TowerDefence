@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sEnchantedStaff",
-    "path": "sprites/sEnchantedStaff/sEnchantedStaff.yy",
+    "name": "sEarthStaff",
+    "path": "sprites/sEarthStaff/sEarthStaff.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,7 +26,7 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"giveObject","path":"objects/oDrawableCard/oDrawableCard.yy",},"objectId":{"name":"oDrawableCard","path":"objects/oDrawableCard/oDrawableCard.yy",},"value":"oEnchantedStaffC","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"giveObject","path":"objects/oDrawableCard/oDrawableCard.yy",},"objectId":{"name":"oDrawableCard","path":"objects/oDrawableCard/oDrawableCard.yy",},"value":"oEarthStaffC","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"coinCost","path":"objects/oDrawableCard/oDrawableCard.yy",},"objectId":{"name":"oDrawableCard","path":"objects/oDrawableCard/oDrawableCard.yy",},"value":"25","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {

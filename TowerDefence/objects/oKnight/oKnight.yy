@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sTowerCollisionMask",
+    "path": "sprites/sTowerCollisionMask/sTowerCollisionMask.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "oTowerParent",
@@ -26,12 +29,13 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"range","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"150","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"range","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"100","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"projectile","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"oProjWeakenKnight","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"projectileSpeed","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"15","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"idleSprite","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"sKnightNW","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"attackSprite","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"sKnightAttackNW","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"tier","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"hoverCard","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"sKnightHover","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Pure",

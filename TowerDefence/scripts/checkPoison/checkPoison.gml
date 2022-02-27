@@ -4,16 +4,16 @@ function checkPoison(){
 	
 	if(poisonTimeLeft == 0){
 		poisoned = false;
-		poisonMultiplier = 0.0;
+		poisonMultiplier = 0;
+		ds_list_clear(poisonList);
 	}
 
 	if(poisoned)
 	{
-		poisonMultiplier = 0.2;
 		poisonTimeLeft--;
 	}
-	else{
-		
+	else
+	{
 		poisonMultiplier = 0.0;
 	}
 }

@@ -1,29 +1,27 @@
 /// @description Insert description here
 // You can write your code in this editor
-if(!oShop.visible){
+if(oShop.visible){
+	oShop.visible = false;
+	oShopUiBackground.visible = false;
+	instance_deactivate_object(oDrawableCard);
+	instance_deactivate_object(oShopReset)
+}
 
-oForge.visible = !oForge.visible;
-oForge.holder1.visible = !oForge.holder1.visible;
-oForge.holder2.visible = !oForge.holder2.visible;
-oForge.resultHolder.visible = !oForge.resultHolder.visible;
+oForgeUiBackground.visible = !oForgeUiBackground.visible;
 
-if(oForge.visible){
-	pauseGame(true);
-	instance_activate_object(oForge.upgrade);
+
+if(oForgeUiBackground.visible){
+	//pauseGame(true);
+	showForge(true);
 	
 }
 else{
-	pauseGame(false);
-	instance_deactivate_object(oForge.upgrade);
+	//pauseGame(false);
+	showForge(false);
 }
 
-if(oForge.holder1.cardHeld != noone){
-removeFromForge(oForge.holder1, oForge.holder1.cardHeld);
-}
-
-if(oForge.holder2.cardHeld != noone){
-removeFromForge(oForge.holder2, oForge.holder2.cardHeld);
-}
+audio_play_sound(soundButtonPress, 100, false);
 shuffleCards();
 
-}
+
+

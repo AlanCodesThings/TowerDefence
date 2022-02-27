@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 draw_self();
-if(tier <= 2){
+if(global.forgeTier <= 2){
 if(global.coins < nextTierCost)
 {
 	draw_set_color(c_red);

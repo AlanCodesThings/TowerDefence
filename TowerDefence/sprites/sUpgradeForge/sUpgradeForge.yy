@@ -25,8 +25,8 @@
   "gridY": 0,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"f5fe9e57-f3e1-4db7-b26b-0f242a44b83d","path":"sprites/sUpgradeForge/sUpgradeForge.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f5fe9e57-f3e1-4db7-b26b-0f242a44b83d","path":"sprites/sUpgradeForge/sUpgradeForge.yy",},"LayerId":{"name":"bbf38b01-697a-4612-85e1-e2849360f6a9","path":"sprites/sUpgradeForge/sUpgradeForge.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"f5fe9e57-f3e1-4db7-b26b-0f242a44b83d","path":"sprites/sUpgradeForge/sUpgradeForge.yy",},"LayerId":{"name":"2c178493-48dc-47c4-88bc-6f898c6fe884","path":"sprites/sUpgradeForge/sUpgradeForge.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"f5fe9e57-f3e1-4db7-b26b-0f242a44b83d","path":"sprites/sUpgradeForge/sUpgradeForge.yy",},"LayerId":{"name":"bbf38b01-697a-4612-85e1-e2849360f6a9","path":"sprites/sUpgradeForge/sUpgradeForge.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sUpgradeForge","path":"sprites/sUpgradeForge/sUpgradeForge.yy",},"resourceVersion":"1.0","name":"f5fe9e57-f3e1-4db7-b26b-0f242a44b83d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {

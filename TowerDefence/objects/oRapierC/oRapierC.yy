@@ -28,7 +28,7 @@
   "overriddenProperties": [
     {"propertyId":{"name":"noCardSprite","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"sRapierSmall","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"upgradedTower","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"oDuelist","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"range","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"350","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"range","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"115","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"tier","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"objectId":{"name":"oWeaponParentC","path":"objects/oWeaponParentC/oWeaponParentC.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {

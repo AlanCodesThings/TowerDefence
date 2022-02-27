@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sTowerCollisionMask",
+    "path": "sprites/sTowerCollisionMask/sTowerCollisionMask.yy",
+  },
   "persistent": false,
   "parentObjectId": {
     "name": "oTowerParent",
@@ -26,13 +29,14 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"range","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"250","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"range","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"165","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"room_speed/4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"projectile","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"oProjPoisonAlch","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"projectileSpeed","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"25","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"attackSprite","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"sAlchemistAttackNW","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"idleSprite","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"sAlchemistNW","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"tier","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"2","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"hoverCard","path":"objects/oTowerParent/oTowerParent.yy",},"objectId":{"name":"oTowerParent","path":"objects/oTowerParent/oTowerParent.yy",},"value":"sAlchemistHover","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Hybrid",

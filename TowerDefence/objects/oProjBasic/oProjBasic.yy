@@ -32,7 +32,7 @@
   ],
   "parent": {
     "name": "Basic",
-    "path": "folders/Objects/Projectiles/Basic.yy",
+    "path": "folders/Objects/Enemies/Basic.yy",
   },
   "resourceVersion": "1.0",
   "name": "oProjBasic",

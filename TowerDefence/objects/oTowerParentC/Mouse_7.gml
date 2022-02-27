@@ -6,8 +6,8 @@ if(col == c_white && sprite_index = towerSprite && inBinArea == false)
 	{
 		
 		deleteItems(oPeasentC, 1);
-		
-		instance_create_depth(mouse_x,mouse_y,-1,createTower);
+		audio_play_sound(soundPlaceTower, 100,false);
+		instance_create_layer(mouse_x,mouse_y,"Instances",createTower);
 	}
 	else if(!place_meeting(x,y,oBin))
 	{

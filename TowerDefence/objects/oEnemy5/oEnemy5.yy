@@ -28,9 +28,10 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"maxHp","path":"objects/oEnemyParent/oEnemyParent.yy",},"objectId":{"name":"oEnemyParent","path":"objects/oEnemyParent/oEnemyParent.yy",},"value":"8100","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"maxHp","path":"objects/oEnemyParent/oEnemyParent.yy",},"objectId":{"name":"oEnemyParent","path":"objects/oEnemyParent/oEnemyParent.yy",},"value":"4050","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"spd","path":"objects/oEnemyParent/oEnemyParent.yy",},"objectId":{"name":"oEnemyParent","path":"objects/oEnemyParent/oEnemyParent.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"maskType","path":"objects/oEnemyParent/oEnemyParent.yy",},"objectId":{"name":"oEnemyParent","path":"objects/oEnemyParent/oEnemyParent.yy",},"value":"oEnemyMask5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"clickCard","path":"objects/oEnemyParent/oEnemyParent.yy",},"objectId":{"name":"oEnemyParent","path":"objects/oEnemyParent/oEnemyParent.yy",},"value":"sHoverEnemy5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Enemies",

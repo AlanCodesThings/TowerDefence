@@ -4,6 +4,7 @@ function checkBleed(){
 	
 	if(bleedTimeLeft == 0){
 		bleeding = false;
+		executeBleed = false
 	}
 
 	if(bleeding)
@@ -15,4 +16,8 @@ function checkBleed(){
 			
 		}
 	}
+	
+	additionalBleedDamage = 2 + (floor(bleedCount/50))/2;
+	
+	
 }

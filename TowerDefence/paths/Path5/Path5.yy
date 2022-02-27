@@ -1,0 +1,26 @@
+{
+  "kind": 0,
+  "closed": false,
+  "precision": 4,
+  "points": [
+    {"speed":100.0,"x":-36.2911377,"y":158.903687,},
+    {"speed":100.0,"x":544.0,"y":160.0,},
+    {"speed":100.0,"x":544.0,"y":32.0,},
+    {"speed":100.0,"x":672.0,"y":32.0,},
+    {"speed":100.0,"x":672.0,"y":288.0,},
+    {"speed":100.0,"x":32.0,"y":288.0,},
+    {"speed":100.0,"x":32.0,"y":416.0,},
+    {"speed":100.0,"x":800.0,"y":416.0,},
+    {"speed":100.0,"x":800.0,"y":-64.0,},
+    {"speed":100.0,"x":800.0,"y":-64.0,},
+    {"speed":100.0,"x":800.0,"y":-64.0,},
+  ],
+  "parent": {
+    "name": "TowerDefence",
+    "path": "TowerDefence.yyp",
+  },
+  "resourceVersion": "1.0",
+  "name": "Path5",
+  "tags": [],
+  "resourceType": "GMPath",
+}

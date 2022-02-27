@@ -47,7 +47,7 @@ else{
 
 //Paladin Buff
 if(buffed){
-	damageBuff = 1 + (buffStacks * 0.2);
+	damageBuff = 1 + (buffStacks * 0.1);
 }
 else{
 	damageBuff = 1;	
@@ -57,7 +57,7 @@ else{
 
 if(rangerBuff){
 	//image_speed = attackSpeedBuff;
-	attackSpeedBuff = 1.2 * rangerBuffStacks;
+	attackSpeedBuff = 1 + ((1/3) * rangerBuffStacks);
 }
 else{
 	attackSpeedBuff = 1;	
@@ -65,7 +65,7 @@ else{
 
 //Frenzy
 if(frenzy){
-	frenzyBuff = 2;
+	frenzyBuff = 1.75;
 	frenzyTimeLeft--;
 }
 else{
@@ -79,11 +79,23 @@ if(frenzyTimeLeft == 0){
 
 //Royal Guard Buff
 if(royalGuardBuff){
-	rgAttackSpeedBuff = 0.2 * royalGuardStacks;	
+	rgAttackSpeedBuff = 0.1 * royalGuardStacks;	
 }
 else{
 	rgAttackSpeedBuff = 0;
 }
 
-image_speed = 1 * attackSpeedBuff * frenzyBuff * 1 + rgAttackSpeedBuff;
+image_speed = 1 * attackSpeedBuff * frenzyBuff * (1 + rgAttackSpeedBuff);
 
+
+if(mouse_check_button_released(mb_left)){
+	if(!collision_point(mouse_x,mouse_y,id, true, true)){
+			if(!collision_point(mouse_x,mouse_y, oTowerParent, true,false) &&  !collision_point(mouse_x,mouse_y, oEnemyParent, true,false)){
+				oUIManager.showHover = false;
+				oUIManager.showDelete = false;
+				oUIManager.showCard = noone;	
+				oUIManager.owner = noone;	
+				oUIManager.createOne = false;	
+			}
+	}
+}

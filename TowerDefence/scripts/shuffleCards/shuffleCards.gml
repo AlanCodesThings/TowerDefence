@@ -3,16 +3,16 @@ function shuffleCards()
 {
 	for(var i = 0; i < ds_list_size(oInventory.uiInventory); i++) {
 		var card = ds_list_find_value(oInventory.uiInventory, i);
-		if(card.inSlot = false){
+		//if(card.inSlot = false){
 		//var check = object_get_name(card.object_index);
 		global.canClickCard = false;
 	
-		card.x = room_width/5 + (130 * i);
+		card.x = room_width/7 + (130 * i);
 		card.y = room_height * 0.9; 
 		
 
 		}
 		
 
-	}
+	//}
 }

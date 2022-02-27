@@ -1,4 +1,4 @@
-/// @description Create Enemies
+// @description Create Enemies
 
 
 switch(global.level){
