@@ -15,6 +15,10 @@ if(owner != noone){
 	}
 	instance_destroy(owner);
 	owner = noone;
+	oUIManager.showHover = false;
+	oUIManager.showDelete = false;
+	oUIManager.owner = noone;
+	oUIManager.showCard = noone;
 	global.coins += giveCoins;
-	audio_play_sound(soundButtonPress,100,false);
+	audio_play_sound(soundPurchase,100,false);
 }

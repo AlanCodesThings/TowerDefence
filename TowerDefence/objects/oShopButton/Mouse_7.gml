@@ -13,13 +13,13 @@ if(oForgeUiBackground.visible){
 		var card = ds_list_find_value(oShop.cardList, i);
 		if(oShop.visible)
 		{
-			pauseGame(true);
+			//pauseGame(true);
 			instance_activate_object(card);	
 			instance_activate_object(oShop.reset);	
 		}
 		else
 		{
-			pauseGame(false);
+			//pauseGame(false);
 			instance_deactivate_object(card);	
 			instance_deactivate_object(oShop.reset);	
 		}

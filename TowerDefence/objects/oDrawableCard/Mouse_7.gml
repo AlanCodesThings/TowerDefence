@@ -5,4 +5,5 @@ if(oCardManager.handSize < oCardManager.maxHandSize){
 }
 else{
 	show_debug_message("Delete a card or skip the drawing phase to continue")	
+	global.handFullText = true;
 }

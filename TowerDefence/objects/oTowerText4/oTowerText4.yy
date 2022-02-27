@@ -29,6 +29,9 @@
     {"propertyId":{"name":"t2Sprite","path":"objects/oTowerTextParent/oTowerTextParent.yy",},"objectId":{"name":"oTowerTextParent","path":"objects/oTowerTextParent/oTowerTextParent.yy",},"value":"sDuelistText","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"t3Sprite","path":"objects/oTowerTextParent/oTowerTextParent.yy",},"objectId":{"name":"oTowerTextParent","path":"objects/oTowerTextParent/oTowerTextParent.yy",},"value":"sPirateCaptainText","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"resultWep","path":"objects/oTowerTextParent/oTowerTextParent.yy",},"objectId":{"name":"oTowerTextParent","path":"objects/oTowerTextParent/oTowerTextParent.yy",},"value":"oWeaponTextL4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"t1Hover","path":"objects/oTowerTextParent/oTowerTextParent.yy",},"objectId":{"name":"oTowerTextParent","path":"objects/oTowerTextParent/oTowerTextParent.yy",},"value":"sBanditHover","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"t2Hover","path":"objects/oTowerTextParent/oTowerTextParent.yy",},"objectId":{"name":"oTowerTextParent","path":"objects/oTowerTextParent/oTowerTextParent.yy",},"value":"sDuelistHover","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"t3Hover","path":"objects/oTowerTextParent/oTowerTextParent.yy",},"objectId":{"name":"oTowerTextParent","path":"objects/oTowerTextParent/oTowerTextParent.yy",},"value":"sPirateCaptainHover","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "TowerTextPositions",

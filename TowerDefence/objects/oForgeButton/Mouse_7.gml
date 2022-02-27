@@ -11,12 +11,12 @@ oForgeUiBackground.visible = !oForgeUiBackground.visible;
 
 
 if(oForgeUiBackground.visible){
-	pauseGame(true);
+	//pauseGame(true);
 	showForge(true);
 	
 }
 else{
-	pauseGame(false);
+	//pauseGame(false);
 	showForge(false);
 }
 

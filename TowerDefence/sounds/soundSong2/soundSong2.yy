@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.15,
+  "volume": 0.01,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -12,7 +12,7 @@
     "path": "audiogroups/agMusic",
   },
   "soundFile": "soundSong2.wav",
-  "duration": 253.231018,
+  "duration": 209.573318,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

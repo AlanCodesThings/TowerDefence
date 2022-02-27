@@ -7,13 +7,16 @@ minVol = bottomBar.bbox_left;
 volDiff = maxVol - minVol;
 
 	if(master){
-		x = (oMusicPlayer.masterVol * volDiff) + minVol;
+		x = (global.masterVol * volDiff) + minVol;
+		//x = maxVol;
 		
 	}
 	else if(group == agMusic){
-		x = (oMusicPlayer.musicVol * volDiff) + minVol;
+		//x = maxVol;
+		x = (global.musicVol * volDiff) + minVol;
 	}
 	else if(group == agSFX){
-		x = (oMusicPlayer.sfxVol * volDiff) + minVol;
+		//x = maxVol;
+		x = (global.sfxVol * volDiff) + minVol;
 	}
 	

@@ -17,6 +17,54 @@ function giveStars(){
 		}
 		
 	}
+	else if(room == rTundra){
+		if(starsWon > global.mapTundraStars){
+			var newStars = starsWon - global.mapTundraStars;
+			global.mapTundraStars = starsWon;
+			return [true,newStars];
+		}
+		
+	}
+	else if(room == rCaves){
+		if(starsWon > global.mapCavesStars){
+			var newStars = starsWon - global.mapCavesStars;
+			global.mapCavesStars = starsWon;
+			return [true,newStars];
+		}
+		
+	}
+	else if(room == rAshlands){
+		if(starsWon > global.mapAshlandsStars){
+			var newStars = starsWon - global.mapAshlandsStars;
+			global.mapAshlandsStars = starsWon;
+			return [true,newStars];
+		}
+		
+	}
+	else if(room == rTemple){
+		if(starsWon > global.mapTempleStars){
+			var newStars = starsWon - global.mapTempleStars;
+			global.mapTempleStars = starsWon;
+			return [true,newStars];
+		}
+		
+	}
+	else if(room == rBeach){
+		if(starsWon > global.mapBeachStars){
+			var newStars = starsWon - global.mapBeachStars;
+			global.mapBeachStars = starsWon;
+			return [true,newStars];
+		}
+		
+	}
+	else if(room == rDungeon){
+		if(starsWon > global.mapDungeonStars){
+			var newStars = starsWon - global.mapDungeonStars;
+			global.mapDungeonStars = starsWon;
+			return [true,newStars];
+		}
+		
+	}
 	
 	return [false,0]
 }

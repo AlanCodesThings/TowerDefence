@@ -7,7 +7,7 @@ function shuffleCards()
 		//var check = object_get_name(card.object_index);
 		global.canClickCard = false;
 	
-		card.x = room_width/5 + (130 * i);
+		card.x = room_width/7 + (130 * i);
 		card.y = room_height * 0.9; 
 		
 

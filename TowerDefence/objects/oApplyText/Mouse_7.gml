@@ -43,7 +43,8 @@ switch(oResButton.image_index){
 			
 			changeResolution(1280,720);
 		}
-		else if(screenSize < 2550){
+		else if(screenSize < 2550)
+		{
 			
 			changeResolution(1920,1080);
 		}

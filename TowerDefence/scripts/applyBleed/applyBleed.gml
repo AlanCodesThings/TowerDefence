@@ -2,6 +2,11 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function applyBleed(enemy , owner){
 	if(enemy.bleeding){
+		if(owner.towerName =="oDragoon" || owner.towerName == "oExecutioner"){
+			enemy.executeBleed = true;	
+			
+		}
+		
 		if(owner.towerName == "oDragoon"){
 			enemy.bleedCount += 3;
 			enemy.bleedTimeLeft += (enemy.additionalStackTimer * 3);
@@ -13,6 +18,10 @@ function applyBleed(enemy , owner){
 	}
 	else{
 		enemy.bleeding = true;
+		if(owner.towerName =="oDragoon" || owner.towerName == "oExecutioner"){
+			enemy.executeBleed = true;	
+			
+		}
 		
 		if(owner.towerName == "oDragoon"){
 			enemy.bleedCount += 3;

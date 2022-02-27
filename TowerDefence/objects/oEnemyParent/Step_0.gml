@@ -20,9 +20,10 @@ checkY = y;
 checkX = x;
 
 checkPoison();
-checkWeaken(weakenStrength);	
+checkWeaken();	
 checkBleed();
 checkSlow();
 
+totalBleedDamage = (bleedCount * additionalBleedDamage) + bleedDamage;
 }
 

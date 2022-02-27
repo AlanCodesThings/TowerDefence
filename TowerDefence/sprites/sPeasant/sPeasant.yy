@@ -1,5 +1,5 @@
 {
-  "bboxMode": 2,
+  "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
   "origin": 4,
@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 7,
-  "bbox_right": 61,
-  "bbox_top": 6,
-  "bbox_bottom": 50,
+  "bbox_left": 4,
+  "bbox_right": 62,
+  "bbox_top": 4,
+  "bbox_bottom": 56,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -26,6 +26,7 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"429f713c-266f-4933-a6c1-9b98209b89cb","path":"sprites/sPeasant/sPeasant.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"429f713c-266f-4933-a6c1-9b98209b89cb","path":"sprites/sPeasant/sPeasant.yy",},"LayerId":{"name":"f3835df6-2257-4b43-98ec-4fd2f71b78eb","path":"sprites/sPeasant/sPeasant.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"429f713c-266f-4933-a6c1-9b98209b89cb","path":"sprites/sPeasant/sPeasant.yy",},"LayerId":{"name":"9877d5d2-5878-4f51-bae1-f1f820ad590c","path":"sprites/sPeasant/sPeasant.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sPeasant","path":"sprites/sPeasant/sPeasant.yy",},"resourceVersion":"1.0","name":"429f713c-266f-4933-a6c1-9b98209b89cb","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {

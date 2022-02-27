@@ -23,7 +23,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"sound","path":"objects/oMainMenuButtonParent/oMainMenuButtonParent.yy",},"objectId":{"name":"oMainMenuButtonParent","path":"objects/oMainMenuButtonParent/oMainMenuButtonParent.yy",},"value":"soundMenuChange","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},

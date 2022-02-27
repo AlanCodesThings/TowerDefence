@@ -11,12 +11,13 @@ function applyBurn(enemy){
 	}
 	
 	
-	enemy.currentHp -= (enemy.burnStacks * enemy.burnDamage)
+	enemy.currentHp -= (enemy.burnStacks * enemy.burnDamage) //can add in poison here
 	
 	if(enemy.burnStacks >= 5 && owner.passive == "Combustion"){
 		enemy.burnStacks = 0;
 		enemy.burned = false;
-		enemy.currentHp -= enemy.combustionDamage		
+		enemy.currentHp -= enemy.combustionDamage	// can add in poison here	
+		enemy.combustCount ++;
 	}
 	else if(enemy.burnStacks >= 5){
 		enemy.burnStacks = 5;

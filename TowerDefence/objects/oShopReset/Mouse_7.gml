@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-resetShop(oShop.cardList, cost);
+audio_play_sound(soundButtonPress,100,false);
+resetShop(oShop.cardList, newCost);

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sBin",
-    "path": "sprites/sBin/sBin.yy",
+    "name": "sTrashCan",
+    "path": "sprites/sTrashCan/sTrashCan.yy",
   },
   "solid": false,
   "visible": true,

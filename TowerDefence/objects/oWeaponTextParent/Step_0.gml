@@ -10,4 +10,4 @@ var temp3 = temp2 + "C";
 
 currentWeapon = asset_get_index(temp3);
 
-show_debug_message(currentWeapon);
+

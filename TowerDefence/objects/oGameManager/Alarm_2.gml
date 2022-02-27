@@ -9,6 +9,7 @@ if(gameOver == false){
 		if(newRecord[0])
 		{
 		global.stars += newRecord[1];
+		starChange = newRecord[1];
 		}
 		saveGame();
 	}

@@ -1,6 +1,13 @@
 /// @description Check for near enemy and draw lines
 if(frenzy){
-	draw_sprite(sFrenzyBuff,0,x,y);
+	
+	if(sprite_index = attackSprite){
+	draw_sprite_ext(sFrenzyBuffAttack,-1,x,y,image_xscale,image_yscale,image_angle, image_blend, image_alpha);
+	}
+	else{
+	draw_sprite(sFrenzyBuff,-1,x,y);
+	}
+	
 	
 }
 
@@ -9,7 +16,7 @@ if(rangerBuff){
 	if(alphaLevel > 1){
 		alphaLevel = 1;	
 	}
-	draw_sprite_ext(sRangerBuff,0,x,y,image_xscale,image_yscale,image_angle,image_blend,alphaLevel);		
+	draw_sprite_ext(sRangerBuff,0,x,y-5,image_xscale,image_yscale,0,image_blend,alphaLevel);		
 }
 
 draw_self();
@@ -48,6 +55,10 @@ if(enemy != noone){		//If a nearby enemy exists
 }
 
 if(buffed){
-	draw_sprite(sPaladinBuff,0,x,y);
-		
+	if(sprite_index == attackSprite){
+	draw_sprite_ext(sPaladinBuffAttack,0,x,y,image_xscale, image_yscale, image_angle, image_blend, image_alpha);
+	}
+	else{
+		draw_sprite(sPaladinBuff,0,x,y);	
+	}
 }

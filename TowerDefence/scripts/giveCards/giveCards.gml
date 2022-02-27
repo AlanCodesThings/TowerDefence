@@ -4,7 +4,7 @@ function giveCards(cardType){
 	
 
 	var drawnCard = noone;
-	var card_x = room_width/5 + (130 * oCardManager.handSize);
+	var card_x = room_width/7 + (130 * oCardManager.handSize);
 	var card_y = room_height * 0.9; 
 	
 	if(oCardManager.handSize <= oCardManager.maxHandSize){ //If not at the maximum limit of cards at once

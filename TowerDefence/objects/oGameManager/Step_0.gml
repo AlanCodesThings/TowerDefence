@@ -7,6 +7,7 @@ if(global.hp <= 0){
 		retryHover = true;
 		if(mouse_check_button(mb_left)){
 			room_restart();	
+			audio_resume_all();
 		}
 		
 	}
@@ -17,6 +18,7 @@ if(global.hp <= 0){
 		quitHover = true;
 		if(mouse_check_button(mb_left)){
 			room_goto(rMainMenu);	
+			audio_resume_all();
 		}
 	}
 	else{
@@ -28,10 +30,11 @@ if(gameWon){
 
 
 	
-	if(mouseOver(window_get_width()*0.57 + 23,window_get_height()*0.78 + 10, 46,20)){
+	if(mouseOver(global.gameWidth*0.57 + 23,global.gameHeight*0.78 + 10, 46,20)){
 		quitHoverWin = true;
 		if(mouse_check_button_released(mb_left)){
 			room_goto(rMainMenu);	
+			audio_resume_all();
 			
 		}
 	}

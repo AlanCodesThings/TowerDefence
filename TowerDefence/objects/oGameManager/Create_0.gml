@@ -4,14 +4,17 @@ spawn_amount = 0;
 spawn_count = 0;
 spawn_rate = 0.5* room_speed; //one second (1*fps)
 coinsGiven = false;
+starChange = 0;
+playOnce = false;
+doOnce = false;
 
 
 alarm[1] = 1;
 
 global.level = 0;
 global.newLevel = false;
-global.coins =4000;
-global.hp = 1;
+global.coins =400;
+global.hp = 10;
 global.pause = false;
 global.ready = false;
 global.waiting = false;
@@ -19,10 +22,10 @@ global.forgeTier = 0;
 global.unlocked = 0;
 
 //End Game UI
-retryX = window_get_width()/2 -115
-retryY = window_get_height()* 0.8
-quitX = window_get_width()/2 +25
-quitY = window_get_height()* 0.8
+retryX = global.gameWidth/2 -115
+retryY = global.gameHeight* 0.8
+quitX = global.gameWidth/2 +25
+quitY = global.gameHeight* 0.8
 retryHover = false
 quitHover = false;
 

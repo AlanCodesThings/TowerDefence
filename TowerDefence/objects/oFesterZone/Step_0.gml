@@ -1,15 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-with(oEnemyParent)
-{
-	if(ds_list_find_index(other.enemyList, id) == -1){
-		ds_list_add(other.enemyList, id);
-		festerEnemy(id);
+var enemyHit = instance_place(x,y,oEnemyParent);
+if(enemyHit != noone){
+	if(ds_list_find_index(enemyList, enemyHit.id) == -1){
+		ds_list_add(enemyList, enemyHit.id);
+		if(owner.towerName == "oWitchDoctor"){
+			festerEnemy(enemyHit.id, 100);
+		}else{
+			festerEnemy(enemyHit.id, 50);
+		}
 	}
 }
-
-
 
 if(owner.towerName == "oWitchDoctor"){
 	

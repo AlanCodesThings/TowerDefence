@@ -4,12 +4,15 @@ function checkSlow(){
 	
 	if(slowTimeLeft == 0){
 		slowed = false;
+		totalSlow = 0;
+		ds_list_clear(slowList);
 		path_speed = spd
 	}
 
 	if(slowed)
 	{
-		path_speed = slowSpeed * (1 - poisonMultiplier)
+		var newSlow = spd * (1 - totalSlow)
+		path_speed = newSlow * (1 - poisonMultiplier)
 		slowTimeLeft--;
 	}
 	else{
