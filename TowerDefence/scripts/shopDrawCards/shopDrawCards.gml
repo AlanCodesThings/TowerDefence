@@ -13,8 +13,11 @@ function shopDrawCards(numCards, shopList){
 		var card_y = room_height/2.7 ; 
 		
 		if(i == 0){ //First card is always a peasent
+			//show_debug_message(ds_list_find_index(oShop.cardList))
+			
 			var pCard = instance_create_layer(card_x, card_y, "OnUI", oPeasentDraw);
 			ds_list_add(shopList, pCard);
+			
 			
 		}
 		else

@@ -8,6 +8,7 @@ global.displayWidth=0;
 global.gameWidth = 1366;
 global.gameHeight = 768;
 
+global.level =0 ;
 global.stars = 50; //will change to load if there is a file
 global.tutorial =false;
 global.help =false;

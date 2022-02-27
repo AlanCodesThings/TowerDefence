@@ -38,23 +38,23 @@ if(gameWon){
 	var starX = global.gameWidth/2
 	var starY = global.gameHeight * 0.45
 	if(starChange == 0){
-		draw_text(textX, textY, "You've earned " + string(starChange) + " stars");
+		draw_text(textX-32, textY, "You've earned " + string(starChange) + " new stars");
 		draw_text(textDiffX,textDiffY,string(global.difficulty) + " Difficulty");
 		draw_sprite(s0Star, 0, starX,starY);
 	}
 	else if(starChange == 1){
-		draw_text(textX, textY, "You've earned " + string(starChange) + " star");
+		draw_text(textX-28, textY, "You've earned " + string(starChange) + " new star");
 		draw_text(textDiffX,textDiffY,string(global.difficulty) + " Difficulty");
 		draw_sprite(s1Star, 0, starX,starY);
 	}
 	else if(starChange ==2)
 	{
-		draw_text(textX-2, textY, "You've earned " + string(starChange)+ " stars");
+		draw_text(textX-32, textY, "You've earned " + string(starChange)+ " new stars");
 		draw_text(textDiffX -16,textDiffY,string(global.difficulty) + " Difficulty");
 		draw_sprite(s2Star, 0, starX ,starY);
 	}
 	else if(starChange ==3){
-		draw_text(textX-2, textY, "You've earned " + string(starChange) + " stars");
+		draw_text(textX-32, textY, "You've earned " + string(starChange) + " new stars");
 		draw_text(textDiffX,textDiffY,string(global.difficulty) + " Difficulty");
 		draw_sprite(s3Star, 0, starX ,starY);
 		

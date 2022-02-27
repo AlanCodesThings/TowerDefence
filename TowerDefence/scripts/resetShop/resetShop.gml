@@ -9,7 +9,7 @@ function resetShop(cardList, newCost){
 				instance_destroy(ds_list_find_value(cardList, i));
 			}
 		}
-		ds_list_empty(cardList);
+		ds_list_clear(cardList);
 		shopDrawCards(5, cardList);
 	}
 }
