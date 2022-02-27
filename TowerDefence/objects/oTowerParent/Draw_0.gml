@@ -1,24 +1,4 @@
 /// @description Check for near enemy and draw lines
-if(frenzy){
-	
-	if(sprite_index = attackSprite){
-	draw_sprite_ext(sFrenzyBuffAttack,-1,x,y,image_xscale,image_yscale,image_angle, image_blend, image_alpha);
-	}
-	else{
-	draw_sprite(sFrenzyBuff,-1,x,y);
-	}
-	
-	
-}
-
-if(rangerBuff){
-	var alphaLevel = rangerBuffStacks * 0.2;
-	if(alphaLevel > 1){
-		alphaLevel = 1;	
-	}
-	draw_sprite_ext(sRangerBuff,0,x,y-5,image_xscale,image_yscale,0,image_blend,alphaLevel);		
-}
-
 draw_self();
 //draw attack radius
 if(mouseOver(x,y,sprite_width,sprite_height)){
@@ -56,9 +36,39 @@ if(enemy != noone){		//If a nearby enemy exists
 
 if(buffed){
 	if(sprite_index == attackSprite){
-	draw_sprite_ext(sPaladinBuffAttack,0,x,y,image_xscale, image_yscale, image_angle, image_blend, image_alpha);
+	draw_sprite_ext(sPalBuffAttack,0,x,y,image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 	}
 	else{
-		draw_sprite(sPaladinBuff,0,x,y);	
+		draw_sprite(sPalBuff,0,x,y);	
+	}
+}
+
+if(royalGuardBuff){
+	if(sprite_index == attackSprite){
+	draw_sprite_ext(sRGBuffAttack,0,x,y,image_xscale, image_yscale, image_angle, image_blend, image_alpha);
+	}
+	else{
+		draw_sprite(sRGBuff,0,x,y);	
+	}
+}
+
+if(frenzy){
+	
+	if(sprite_index = attackSprite){
+	draw_sprite_ext(sWDBuffAttack,0,x,y,image_xscale,image_yscale,image_angle, image_blend, image_alpha);
+	}
+	else{
+	draw_sprite(sWDBuff,0,x,y);
+	}
+	
+	
+}
+
+if(rangerBuff){
+	if(sprite_index = attackSprite){
+		draw_sprite_ext(sRanBuffAttack,0,x,y,image_xscale,image_yscale,image_angle,image_blend,image_alpha);
+	}
+	else{
+		draw_sprite(sRanBuff,0,x,y);
 	}
 }
