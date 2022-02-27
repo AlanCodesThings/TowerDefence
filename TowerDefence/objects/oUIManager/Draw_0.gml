@@ -38,7 +38,7 @@ if(isEnemy && owner != noone){
 	,(owner.currentHp/owner.maxHp) * 100,c_black, c_red, c_lime, 0, true, true);
 	draw_set_font(Font4)
 	draw_set_color(c_black)
-	draw_text(global.gameWidth * 0.05 , global.gameHeight * 0.28, "Health: " + string(owner.currentHp) + "/" + string(owner.maxHp));
+	draw_text(global.gameWidth * 0.038 , global.gameHeight * 0.29, "Health: " + string(owner.currentHp) + "/" + string(owner.maxHp));
 	draw_text(global.gameWidth * 0.038 , global.gameHeight * 0.32, "Weakened: " + string((owner.totalWeaken - 1) * 100) + "%");
 	draw_text(global.gameWidth * 0.038 , global.gameHeight * 0.35, "Slowed: " + string((owner.totalSlow) * 100) + "%");
 	draw_text(global.gameWidth * 0.038 , global.gameHeight * 0.38, "Poisoned: " + string((owner.poisonMultiplier) * 100) + "%");
