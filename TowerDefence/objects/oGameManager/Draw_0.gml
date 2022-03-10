@@ -29,6 +29,7 @@ if(gameWon){
 	audio_pause_all();
 	doOnce = true;
 	}
+	
 	draw_sprite(sWinScreen,0,global.gameWidth/2, global.gameHeight/2);
 	draw_set_color(c_black);
 	var textDiffX = global.gameWidth* 0.44;
@@ -39,23 +40,23 @@ if(gameWon){
 	var starY = global.gameHeight * 0.45
 	if(starChange == 0){
 		draw_text(textX-32, textY, "You've earned " + string(starChange) + " new stars");
-		draw_text(textDiffX,textDiffY,string(global.difficulty) + " Difficulty");
+		draw_text(textDiffX,textDiffY -10,string(global.difficulty) + " Difficulty");
 		draw_sprite(s0Star, 0, starX,starY);
 	}
 	else if(starChange == 1){
 		draw_text(textX-28, textY, "You've earned " + string(starChange) + " new star");
-		draw_text(textDiffX,textDiffY,string(global.difficulty) + " Difficulty");
+		draw_text(textDiffX,textDiffY -10,string(global.difficulty) + " Difficulty");
 		draw_sprite(s1Star, 0, starX,starY);
 	}
 	else if(starChange ==2)
 	{
 		draw_text(textX-32, textY, "You've earned " + string(starChange)+ " new stars");
-		draw_text(textDiffX -16,textDiffY,string(global.difficulty) + " Difficulty");
+		draw_text(textDiffX -16,textDiffY -10,string(global.difficulty) + " Difficulty");
 		draw_sprite(s2Star, 0, starX ,starY);
 	}
 	else if(starChange ==3){
 		draw_text(textX-32, textY, "You've earned " + string(starChange) + " new stars");
-		draw_text(textDiffX,textDiffY,string(global.difficulty) + " Difficulty");
+		draw_text(textDiffX,textDiffY - 10,string(global.difficulty) + " Difficulty");
 		draw_sprite(s3Star, 0, starX ,starY);
 		
 	}
@@ -63,11 +64,17 @@ if(gameWon){
 	draw_text(global.gameWidth*0.57,global.gameHeight*0.78, "Quit");
 	draw_text_color(global.gameWidth*0.57,global.gameHeight*0.78, "Quit",  (quitHoverWin ? c_dkgray: c_black),(quitHoverWin ? c_dkgray: c_black),(quitHoverWin ? c_dkgray: c_black),(quitHoverWin ? c_dkgray: c_black),image_alpha)
 	//draw_rectangle(window_get_width()*0.57, window_get_height()*0.78,window_get_width()*0.57 + 46,window_get_height()*0.78 + 20, true )
-	draw_set_color(c_white);
+	
 	if(playOnce == false){
 		audio_play_sound(soundGameWon, 100, false);
 		playOnce = true;
 	}
+	if(room == rDungeon){
+		draw_text(global.gameWidth * 0.43, global.gameHeight * 0.32, "Congratulations")	
+		draw_text(global.gameWidth * 0.4, global.gameHeight * 0.345, "You've Beaten PeasentTD!")	
+		
+	}
+	draw_set_color(c_white);
 	
 }
 
