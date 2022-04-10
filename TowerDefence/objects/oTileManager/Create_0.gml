@@ -2,7 +2,7 @@
 // You can write your code in this editor
 var layer_id = layer_get_id("SandTiles")
 var tilemap = layer_tilemap_get_id(layer_id);
-if(room == rDesert || room == rFields || room == rBeach || room == rDungeon){
+if(room == rDesert || room == rFields || room == rBeach || room == rDungeon || room == steamHero){
 for(var xx = 0; xx < tilemap_get_width(tilemap); xx++){
 	for(var yy = 0; yy < tilemap_get_height(tilemap); yy++){
 		var cell = tilemap_get(tilemap,xx,yy);
